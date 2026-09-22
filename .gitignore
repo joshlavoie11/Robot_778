@@ -9,3 +9,8 @@ __pycache__/
 **/build/
 **/install/
 **/log/
+
+**/.git
+**/build/
+**/install/
+**/log/
