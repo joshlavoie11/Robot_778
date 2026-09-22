@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build ROS workspace",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "source /opt/ros/humble/setup.bash && cd ${workspaceFolder} && colcon build --symlink-install"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Source ROS environment",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-lc",
+        "source /opt/ros/humble/setup.bash && cd ${workspaceFolder} && source install/setup.bash && exec bash"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
