@@ -1,0 +1,82 @@
+2026-09-21 18:18:13.690 [info] Extension host with pid 3524 started
+2026-09-21 18:18:13.690 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/b47853e107dcdaf0e452c57a820eeb4d/vscode.lock'
+2026-09-21 18:18:13.693 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/b47853e107dcdaf0e452c57a820eeb4d/vscode.lock': Could not acquire lock, checking if the file is stale.
+2026-09-21 18:18:13.717 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/b47853e107dcdaf0e452c57a820eeb4d/vscode.lock': The pid 6181 appears to be gone.
+2026-09-21 18:18:13.717 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/b47853e107dcdaf0e452c57a820eeb4d/vscode.lock': Deleting a stale lock.
+2026-09-21 18:18:13.727 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/b47853e107dcdaf0e452c57a820eeb4d/vscode.lock': Lock acquired.
+2026-09-21 18:18:14.232 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-21 18:18:14.236 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-09-21 18:18:14.238 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-09-21 18:18:14.239 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2026-09-21 18:18:14.241 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-09-21 18:18:17.583 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-09-21 18:18:17.584 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-09-21 18:18:18.703 [info] Eager extensions activated
+2026-09-21 18:18:18.704 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-21 18:18:18.706 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-21 18:18:20.274 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-09-21 18:18:24.892 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-09-21 18:18:35.502 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-09-21 18:19:47.969 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-09-21 19:40:47.777 [info] Extension host terminating: received terminate message from renderer
+2026-09-21 19:40:47.781 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/b47853e107dcdaf0e452c57a820eeb4d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-09-21 19:40:47.895 [error] An error occurred when disposing the subscriptions for extension 'ms-python.vscode-python-envs':
+2026-09-21 19:40:47.896 [error] Error: Channel has been closed
+	at i (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:549:3935)
+	at Object.error (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:549:4394)
+	at Object.dispose (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:577510)
+	at /home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:576097
+	at Array.forEach (<anonymous>)
+	at D.dispose (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:576084)
+	at xn (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:429:736)
+	at T_._fn (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:546:18837)
+	at T_.dispose (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:429:1248)
+	at BR._deactivate (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:546:15154)
+	at file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:546:12456
+	at Array.map (<anonymous>)
+	at BR._deactivateAll (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:546:12444)
+	at BR.terminate (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:546:12795)
+	at r.terminate (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:548:1072)
+	at ma (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:851:11797)
+	at Np.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:851:9939)
+	at T._deliver (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at bs.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Vc._receiveMessage (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:433:13527)
+	at Np.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:433:10832)
+	at T._deliver (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at $x.acceptChunk (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:433:6427)
+	at file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:433:5560
+	at Socket.e (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:433:21105)
+	at Socket.emit (node:events:509:28)
+	at addChunk (node:internal/streams/readable:563:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+	at Readable.push (node:internal/streams/readable:394:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-09-21 19:40:47.911 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.re [as deactivate] (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:770294)
+	at BR._deactivate (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:546:14929)
+	at file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:546:12456
+	at Array.map (<anonymous>)
+	at BR._deactivateAll (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:546:12444)
+	at BR.terminate (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:546:12795)
+	at r.terminate (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:548:1072)
+	at ma (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:851:11797)
+	at Np.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:851:9939)
+	at T._deliver (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at bs.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:433:8627)
+	at Vc._receiveMessage (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:433:13527)
+	at Np.value (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:433:10832)
+	at T._deliver (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:431:3617)
+	at T.fire (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:431:3935)
+	at $x.acceptChunk (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:433:6427)
+	at file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:433:5560
+	at Socket.e (file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/out/vs/workbench/api/node/extensionHostProcess.js:433:21105)
+	at Socket.emit (node:events:509:28)
+	at addChunk (node:internal/streams/readable:563:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+	at Readable.push (node:internal/streams/readable:394:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+2026-09-21 19:40:47.917 [info] Extension host with pid 3524 exiting with code 0

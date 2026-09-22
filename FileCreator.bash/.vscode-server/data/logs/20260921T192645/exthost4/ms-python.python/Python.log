@@ -1,0 +1,15 @@
+2026-09-22 14:32:16.067 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-09-22 14:32:16.581 [info] [test-by-project] Activating project-based testing mode
+2026-09-22 14:32:16.581 [info] [test-by-project] Discovering projects for workspace: /home/ubuntu/ros2_ws
+2026-09-22 14:32:16.583 [info] Native locator: Refresh started
+2026-09-22 14:32:16.583 [info] [test-by-project] Found 1 total Python projects from API
+2026-09-22 14:32:16.583 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-09-22 14:32:16.583 [info] [test-by-project] Creating adapter for: ros2_ws at file:///home/ubuntu/ros2_ws
+2026-09-22 14:32:16.750 [info] [test-by-project] Registered 1 project(s) for /home/ubuntu/ros2_ws
+2026-09-22 14:32:16.753 [info] [test-by-project] Activated 1 project(s) for /home/ubuntu/ros2_ws
+2026-09-22 14:32:16.753 [info] [test-by-project] Subscribed to Python project changes
+2026-09-22 14:32:17.075 [info] Active interpreter [/home/ubuntu/ros2_ws]:  /usr/bin/python3
+2026-09-22 14:32:17.107 [info] > pyenv which python
+2026-09-22 14:32:17.107 [info] cwd: .
+2026-09-22 14:32:23.050 [info] Native locator: Refresh finished in 6471 ms
+2026-09-22 14:32:23.983 [info] Starting Pylance language server.

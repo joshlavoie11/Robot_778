@@ -1,0 +1,4 @@
+2026-09-18 09:30:29.876 [info] Client: Pylance client (2026.3.1) started with python extension (2026.4.0)
+2026-09-18 09:30:31.592 [info] (8174): Server root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-18 09:30:31.999 [info] (8174): Pylance language server 2026.3.1 (pyright version 1.1.411, commit 9a9205fc) starting
+2026-09-18 09:30:36.937 [info] (8174): Starting Mcp server id:39164 ...

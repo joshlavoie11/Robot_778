@@ -1,0 +1,576 @@
+[2026-08-31 14:54:01] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-08-31 14:54:02] debug Resolved quality Stable to 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5
+[2026-08-31 14:54:02] debug Resolved server version: 1.135.0 (commit 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5)
+[2026-08-31 14:54:02] info Downloading server 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5
+[2026-08-31 14:54:02] trace Downloading server: 0/214822114 (0%)
+[2026-08-31 14:54:02] trace Downloading server: 2105344/214822114 (1%)
+[2026-08-31 14:54:02] trace Downloading server: 4210688/214822114 (2%)
+[2026-08-31 14:54:02] trace Downloading server: 6316032/214822114 (3%)
+[2026-08-31 14:54:03] trace Downloading server: 8421376/214822114 (4%)
+[2026-08-31 14:54:03] trace Downloading server: 10525330/214822114 (5%)
+[2026-08-31 14:54:03] trace Downloading server: 12630664/214822114 (6%)
+[2026-08-31 14:54:03] trace Downloading server: 14727818/214822114 (7%)
+[2026-08-31 14:54:03] trace Downloading server: 16833162/214822114 (8%)
+[2026-08-31 14:54:04] trace Downloading server: 18938504/214822114 (9%)
+[2026-08-31 14:54:04] trace Downloading server: 21035657/214822114 (10%)
+[2026-08-31 14:54:04] trace Downloading server: 23141001/214822114 (11%)
+[2026-08-31 14:54:04] trace Downloading server: 25245945/214822114 (12%)
+[2026-08-31 14:54:04] trace Downloading server: 27351289/214822114 (13%)
+[2026-08-31 14:54:05] trace Downloading server: 29456633/214822114 (14%)
+[2026-08-31 14:54:05] trace Downloading server: 31561976/214822114 (15%)
+[2026-08-31 14:54:05] trace Downloading server: 33659130/214822114 (16%)
+[2026-08-31 14:54:05] trace Downloading server: 35764474/214822114 (17%)
+[2026-08-31 14:54:05] trace Downloading server: 37869417/214822114 (18%)
+[2026-08-31 14:54:05] trace Downloading server: 39974761/214822114 (19%)
+[2026-08-31 14:54:06] trace Downloading server: 42071924/214822114 (20%)
+[2026-08-31 14:54:07] trace Downloading server: 44177257/214822114 (21%)
+[2026-08-31 14:54:07] trace Downloading server: 46282600/214822114 (22%)
+[2026-08-31 14:54:07] trace Downloading server: 48379753/214822114 (23%)
+[2026-08-31 14:54:08] trace Downloading server: 50485097/214822114 (24%)
+[2026-08-31 14:54:08] trace Downloading server: 52582250/214822114 (24%)
+[2026-08-31 14:54:08] trace Downloading server: 54687193/214822114 (25%)
+[2026-08-31 14:54:09] trace Downloading server: 56784346/214822114 (26%)
+[2026-08-31 14:54:09] trace Downloading server: 58881506/214822114 (27%)
+[2026-08-31 14:54:10] trace Downloading server: 60986842/214822114 (28%)
+[2026-08-31 14:54:10] trace Downloading server: 63092185/214822114 (29%)
+[2026-08-31 14:54:10] trace Downloading server: 65197529/214822114 (30%)
+[2026-08-31 14:54:10] trace Downloading server: 67302873/214822114 (31%)
+[2026-08-31 14:54:10] trace Downloading server: 69407816/214822114 (32%)
+[2026-08-31 14:54:10] trace Downloading server: 71504969/214822114 (33%)
+[2026-08-31 14:54:11] trace Downloading server: 73602122/214822114 (34%)
+[2026-08-31 14:54:11] trace Downloading server: 75707466/214822114 (35%)
+[2026-08-31 14:54:11] trace Downloading server: 77812809/214822114 (36%)
+[2026-08-31 14:54:11] trace Downloading server: 79909962/214822114 (37%)
+[2026-08-31 14:54:12] trace Downloading server: 82015305/214822114 (38%)
+[2026-08-31 14:54:12] trace Downloading server: 84120649/214822114 (39%)
+[2026-08-31 14:54:13] trace Downloading server: 86217802/214822114 (40%)
+[2026-08-31 14:54:13] trace Downloading server: 88322744/214822114 (41%)
+[2026-08-31 14:54:13] trace Downloading server: 90419897/214822114 (42%)
+[2026-08-31 14:54:13] trace Downloading server: 92517058/214822114 (43%)
+[2026-08-31 14:54:14] trace Downloading server: 94622394/214822114 (44%)
+[2026-08-31 14:54:14] trace Downloading server: 96727737/214822114 (45%)
+[2026-08-31 14:54:14] trace Downloading server: 98828785/214822114 (46%)
+[2026-08-31 14:54:15] trace Downloading server: 100934126/214822114 (47%)
+[2026-08-31 14:54:15] trace Downloading server: 103039470/214822114 (48%)
+[2026-08-31 14:54:15] trace Downloading server: 105136623/214822114 (49%)
+[2026-08-31 14:54:15] trace Downloading server: 107233776/214822114 (50%)
+[2026-08-31 14:54:16] trace Downloading server: 109339120/214822114 (51%)
+[2026-08-31 14:54:16] trace Downloading server: 111444462/214822114 (52%)
+[2026-08-31 14:54:16] trace Downloading server: 113549405/214822114 (53%)
+[2026-08-31 14:54:17] trace Downloading server: 115646559/214822114 (54%)
+[2026-08-31 14:54:17] trace Downloading server: 117743712/214822114 (55%)
+[2026-08-31 14:54:17] trace Downloading server: 119849055/214822114 (56%)
+[2026-08-31 14:54:18] trace Downloading server: 121954399/214822114 (57%)
+[2026-08-31 14:54:18] trace Downloading server: 124051552/214822114 (58%)
+[2026-08-31 14:54:18] trace Downloading server: 126148712/214822114 (59%)
+[2026-08-31 14:54:18] trace Downloading server: 128254048/214822114 (60%)
+[2026-08-31 14:54:19] trace Downloading server: 130359390/214822114 (61%)
+[2026-08-31 14:54:19] trace Downloading server: 132456544/214822114 (62%)
+[2026-08-31 14:54:19] trace Downloading server: 134561488/214822114 (63%)
+[2026-08-31 14:54:19] trace Downloading server: 136666830/214822114 (64%)
+[2026-08-31 14:54:19] trace Downloading server: 138763983/214822114 (65%)
+[2026-08-31 14:54:20] trace Downloading server: 140869327/214822114 (66%)
+[2026-08-31 14:54:20] trace Downloading server: 142966488/214822114 (67%)
+[2026-08-31 14:54:20] trace Downloading server: 145071824/214822114 (68%)
+[2026-08-31 14:54:21] trace Downloading server: 147177167/214822114 (69%)
+[2026-08-31 14:54:22] trace Downloading server: 149274330/214822114 (69%)
+[2026-08-31 14:54:22] trace Downloading server: 151379263/214822114 (70%)
+[2026-08-31 14:54:22] trace Downloading server: 153484607/214822114 (71%)
+[2026-08-31 14:54:22] trace Downloading server: 155589951/214822114 (72%)
+[2026-08-31 14:54:22] trace Downloading server: 157695295/214822114 (73%)
+[2026-08-31 14:54:23] trace Downloading server: 159792448/214822114 (74%)
+[2026-08-31 14:54:23] trace Downloading server: 161897792/214822114 (75%)
+[2026-08-31 14:54:23] trace Downloading server: 164002735/214822114 (76%)
+[2026-08-31 14:54:23] trace Downloading server: 166108079/214822114 (77%)
+[2026-08-31 14:54:24] trace Downloading server: 168213423/214822114 (78%)
+[2026-08-31 14:54:24] trace Downloading server: 170310586/214822114 (79%)
+[2026-08-31 14:54:24] trace Downloading server: 172415920/214822114 (80%)
+[2026-08-31 14:54:25] trace Downloading server: 174521263/214822114 (81%)
+[2026-08-31 14:54:25] trace Downloading server: 176618416/214822114 (82%)
+[2026-08-31 14:54:25] trace Downloading server: 178723358/214822114 (83%)
+[2026-08-31 14:54:26] trace Downloading server: 180828702/214822114 (84%)
+[2026-08-31 14:54:26] trace Downloading server: 182925866/214822114 (85%)
+[2026-08-31 14:54:26] trace Downloading server: 185031199/214822114 (86%)
+[2026-08-31 14:54:26] trace Downloading server: 187136543/214822114 (87%)
+[2026-08-31 14:54:26] trace Downloading server: 189241887/214822114 (88%)
+[2026-08-31 14:54:27] trace Downloading server: 191346830/214822114 (89%)
+[2026-08-31 14:54:27] trace Downloading server: 193443983/214822114 (90%)
+[2026-08-31 14:54:27] trace Downloading server: 195541136/214822114 (91%)
+[2026-08-31 14:54:27] trace Downloading server: 197646479/214822114 (92%)
+[2026-08-31 14:54:27] trace Downloading server: 199751823/214822114 (93%)
+[2026-08-31 14:54:27] trace Downloading server: 201852871/214822114 (94%)
+[2026-08-31 14:54:28] trace Downloading server: 203950024/214822114 (95%)
+[2026-08-31 14:54:28] trace Downloading server: 206055366/214822114 (96%)
+[2026-08-31 14:54:29] trace Downloading server: 208152520/214822114 (97%)
+[2026-08-31 14:54:29] trace Downloading server: 210257863/214822114 (98%)
+[2026-08-31 14:54:29] trace Downloading server: 212363207/214822114 (99%)
+[2026-08-31 14:54:29] trace Downloading server: 214460361/214822114 (100%)
+[2026-08-31 14:54:29] trace Downloading server: 214822114/214822114 (100%)
+[2026-08-31 15:03:49] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-08-31 15:03:50] debug Resolved quality Stable to 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5
+[2026-08-31 15:03:50] debug Resolved server version: 1.135.0 (commit 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5)
+[2026-08-31 15:18:25] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-08-31 15:18:26] warn Error resolving initial server version: Could not check for update: error requesting https://update.code.visualstudio.com/api/latest/server-linux-arm64/stable: error sending request for url (https://update.code.visualstudio.com/api/latest/server-linux-arm64/stable)
+[2026-08-31 18:22:41] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-08-31 18:22:42] debug Resolved quality Stable to 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5
+[2026-08-31 18:22:42] debug Resolved server version: 1.135.0 (commit 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5)
+[2026-08-31 18:23:40] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-08-31 18:23:40] debug Resolved quality Stable to 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5
+[2026-08-31 18:23:40] debug Resolved server version: 1.135.0 (commit 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5)
+[2026-08-31 18:30:20] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-08-31 18:30:20] debug Resolved quality Stable to 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5
+[2026-08-31 18:30:20] debug Resolved server version: 1.135.0 (commit 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5)
+[2026-08-31 18:40:34] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-08-31 18:40:34] debug Resolved quality Stable to 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5
+[2026-08-31 18:40:34] debug Resolved server version: 1.135.0 (commit 08d4889f9ec4a1685d257b9b95de036c8e1ce1e5)
+[2026-09-11 15:14:54] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-09-11 15:14:54] debug Resolved quality Stable to 645f29cc3176500b4b5762ba887cf2a7f0ffdf2c
+[2026-09-11 15:14:54] debug Resolved server version: 1.137.0 (commit 645f29cc3176500b4b5762ba887cf2a7f0ffdf2c)
+[2026-09-11 15:14:54] info Downloading server 645f29cc3176500b4b5762ba887cf2a7f0ffdf2c
+[2026-09-11 15:14:54] trace Downloading server: 0/209275122 (0%)
+[2026-09-11 15:14:54] trace Downloading server: 2105344/209275122 (1%)
+[2026-09-11 15:14:55] trace Downloading server: 4210688/209275122 (2%)
+[2026-09-11 15:14:55] trace Downloading server: 6316032/209275122 (3%)
+[2026-09-11 15:14:55] trace Downloading server: 8421376/209275122 (4%)
+[2026-09-11 15:14:55] trace Downloading server: 10525310/209275122 (5%)
+[2026-09-11 15:14:55] trace Downloading server: 12630654/209275122 (6%)
+[2026-09-11 15:14:55] trace Downloading server: 14735989/209275122 (7%)
+[2026-09-11 15:14:56] trace Downloading server: 16833142/209275122 (8%)
+[2026-09-11 15:14:56] trace Downloading server: 18938485/209275122 (9%)
+[2026-09-11 15:14:56] trace Downloading server: 21035646/209275122 (10%)
+[2026-09-11 15:14:56] trace Downloading server: 23140990/209275122 (11%)
+[2026-09-11 15:14:56] trace Downloading server: 25245926/209275122 (12%)
+[2026-09-11 15:14:57] trace Downloading server: 27351269/209275122 (13%)
+[2026-09-11 15:14:57] trace Downloading server: 29456613/209275122 (14%)
+[2026-09-11 15:14:57] trace Downloading server: 31553774/209275122 (15%)
+[2026-09-11 15:14:57] trace Downloading server: 33659118/209275122 (16%)
+[2026-09-11 15:14:58] trace Downloading server: 35764452/209275122 (17%)
+[2026-09-11 15:14:59] trace Downloading server: 37861606/209275122 (18%)
+[2026-09-11 15:14:59] trace Downloading server: 39966549/209275122 (19%)
+[2026-09-11 15:14:59] trace Downloading server: 42063710/209275122 (20%)
+[2026-09-11 15:15:00] trace Downloading server: 44169054/209275122 (21%)
+[2026-09-11 15:15:00] trace Downloading server: 46274390/209275122 (22%)
+[2026-09-11 15:15:01] trace Downloading server: 48379734/209275122 (23%)
+[2026-09-11 15:15:02] trace Downloading server: 50485077/209275122 (24%)
+[2026-09-11 15:15:02] trace Downloading server: 52590021/209275122 (25%)
+[2026-09-11 15:15:03] trace Downloading server: 54687182/209275122 (26%)
+[2026-09-11 15:15:03] trace Downloading server: 56792526/209275122 (27%)
+[2026-09-11 15:15:05] trace Downloading server: 58897861/209275122 (28%)
+[2026-09-11 15:15:05] trace Downloading server: 61003205/209275122 (29%)
+[2026-09-11 15:15:06] trace Downloading server: 63108549/209275122 (30%)
+[2026-09-11 15:15:06] trace Downloading server: 65213493/209275122 (31%)
+[2026-09-11 15:15:06] trace Downloading server: 67310654/209275122 (32%)
+[2026-09-11 15:15:07] trace Downloading server: 69415998/209275122 (33%)
+[2026-09-11 15:15:08] trace Downloading server: 71521334/209275122 (34%)
+[2026-09-11 15:15:08] trace Downloading server: 73626678/209275122 (35%)
+[2026-09-11 15:15:08] trace Downloading server: 75732021/209275122 (36%)
+[2026-09-11 15:15:09] trace Downloading server: 77829182/209275122 (37%)
+[2026-09-11 15:15:09] trace Downloading server: 79934126/209275122 (38%)
+[2026-09-11 15:15:10] trace Downloading server: 82039462/209275122 (39%)
+[2026-09-11 15:15:10] trace Downloading server: 84144805/209275122 (40%)
+[2026-09-11 15:15:10] trace Downloading server: 86241966/209275122 (41%)
+[2026-09-11 15:15:10] trace Downloading server: 88343014/209275122 (42%)
+[2026-09-11 15:15:11] trace Downloading server: 90448358/209275122 (43%)
+[2026-09-11 15:15:11] trace Downloading server: 92553694/209275122 (44%)
+[2026-09-11 15:15:12] trace Downloading server: 94659037/209275122 (45%)
+[2026-09-11 15:15:12] trace Downloading server: 96764381/209275122 (46%)
+[2026-09-11 15:15:13] trace Downloading server: 98861541/209275122 (47%)
+[2026-09-11 15:15:13] trace Downloading server: 100966484/209275122 (48%)
+[2026-09-11 15:15:13] trace Downloading server: 103071820/209275122 (49%)
+[2026-09-11 15:15:14] trace Downloading server: 105177163/209275122 (50%)
+[2026-09-11 15:15:15] trace Downloading server: 107282507/209275122 (51%)
+[2026-09-11 15:15:15] trace Downloading server: 109387851/209275122 (52%)
+[2026-09-11 15:15:16] trace Downloading server: 111485004/209275122 (53%)
+[2026-09-11 15:15:16] trace Downloading server: 113589947/209275122 (54%)
+[2026-09-11 15:15:16] trace Downloading server: 115695291/209275122 (55%)
+[2026-09-11 15:15:17] trace Downloading server: 117792444/209275122 (56%)
+[2026-09-11 15:15:18] trace Downloading server: 119897785/209275122 (57%)
+[2026-09-11 15:15:18] trace Downloading server: 121994948/209275122 (58%)
+[2026-09-11 15:15:19] trace Downloading server: 124100292/209275122 (59%)
+[2026-09-11 15:15:19] trace Downloading server: 126205626/209275122 (60%)
+[2026-09-11 15:15:19] trace Downloading server: 128302780/209275122 (61%)
+[2026-09-11 15:15:20] trace Downloading server: 130407723/209275122 (62%)
+[2026-09-11 15:15:20] trace Downloading server: 132504876/209275122 (63%)
+[2026-09-11 15:15:21] trace Downloading server: 134602036/209275122 (64%)
+[2026-09-11 15:15:21] trace Downloading server: 136707380/209275122 (65%)
+[2026-09-11 15:15:22] trace Downloading server: 138812715/209275122 (66%)
+[2026-09-11 15:15:23] trace Downloading server: 140909868/209275122 (67%)
+[2026-09-11 15:15:23] trace Downloading server: 143015211/209275122 (68%)
+[2026-09-11 15:15:23] trace Downloading server: 145120554/209275122 (69%)
+[2026-09-11 15:15:24] trace Downloading server: 147217716/209275122 (70%)
+[2026-09-11 15:15:24] trace Downloading server: 149322660/209275122 (71%)
+[2026-09-11 15:15:24] trace Downloading server: 151427996/209275122 (72%)
+[2026-09-11 15:15:25] trace Downloading server: 153533340/209275122 (73%)
+[2026-09-11 15:15:25] trace Downloading server: 155638683/209275122 (74%)
+[2026-09-11 15:15:26] trace Downloading server: 157735844/209275122 (75%)
+[2026-09-11 15:15:26] trace Downloading server: 159841188/209275122 (76%)
+[2026-09-11 15:15:27] trace Downloading server: 161946132/209275122 (77%)
+[2026-09-11 15:15:28] trace Downloading server: 164051467/209275122 (78%)
+[2026-09-11 15:15:29] trace Downloading server: 166156810/209275122 (79%)
+[2026-09-11 15:15:29] trace Downloading server: 168253963/209275122 (80%)
+[2026-09-11 15:15:29] trace Downloading server: 170351124/209275122 (81%)
+[2026-09-11 15:15:30] trace Downloading server: 172456468/209275122 (82%)
+[2026-09-11 15:15:31] trace Downloading server: 174561812/209275122 (83%)
+[2026-09-11 15:15:31] trace Downloading server: 176666748/209275122 (84%)
+[2026-09-11 15:15:31] trace Downloading server: 178772092/209275122 (85%)
+[2026-09-11 15:15:32] trace Downloading server: 180869252/209275122 (86%)
+[2026-09-11 15:15:32] trace Downloading server: 182974596/209275122 (87%)
+[2026-09-11 15:15:33] trace Downloading server: 185075644/209275122 (88%)
+[2026-09-11 15:15:34] trace Downloading server: 187180980/209275122 (89%)
+[2026-09-11 15:15:34] trace Downloading server: 189286323/209275122 (90%)
+[2026-09-11 15:15:36] trace Downloading server: 191391667/209275122 (91%)
+[2026-09-11 15:15:36] trace Downloading server: 193488828/209275122 (92%)
+[2026-09-11 15:15:37] trace Downloading server: 195594172/209275122 (93%)
+[2026-09-11 15:15:37] trace Downloading server: 197699116/209275122 (94%)
+[2026-09-11 15:15:38] trace Downloading server: 199804452/209275122 (95%)
+[2026-09-11 15:15:38] trace Downloading server: 201909796/209275122 (96%)
+[2026-09-11 15:15:40] trace Downloading server: 204015139/209275122 (97%)
+[2026-09-11 15:15:40] trace Downloading server: 206112300/209275122 (98%)
+[2026-09-11 15:15:41] trace Downloading server: 208217644/209275122 (99%)
+[2026-09-11 15:15:41] trace Downloading server: 209275122/209275122 (100%)
+[2026-09-11 15:15:57] debug Listening for agent host management requests on "/tmp/code-6fe0a330-94e7-4510-a1b1-25b01f97e9cb"
+[2026-09-11 15:15:58] debug [645f29c stdout]: *
+[2026-09-11 15:15:58] debug [645f29c stdout]: * Visual Studio Code Server
+[2026-09-11 15:15:58] debug [645f29c stdout]: *
+[2026-09-11 15:15:58] debug [645f29c stdout]: * By using the software, you agree to
+[2026-09-11 15:15:58] debug [645f29c stdout]: * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[2026-09-11 15:15:58] debug [645f29c stdout]: * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[2026-09-11 15:15:58] debug [645f29c stdout]: *
+[2026-09-11 15:15:58] debug [645f29c stdout]: Server bound to /tmp/code-897ee4cc-e0a5-4b3e-a795-4346990e5d05
+[2026-09-11 15:15:58] debug [645f29c stdout]: Extension host agent listening on /tmp/code-897ee4cc-e0a5-4b3e-a795-4346990e5d05
+[2026-09-11 15:15:58] debug [645f29c stdout]: 
+[2026-09-11 15:15:59] debug [645f29c stdout]: [11:15:59] 
+[2026-09-11 15:15:59] debug [645f29c stdout]: 
+[2026-09-11 15:15:59] debug [645f29c stdout]: 
+[2026-09-11 15:15:59] debug [645f29c stdout]: 
+[2026-09-11 15:15:59] debug [645f29c stdout]: 
+[2026-09-11 15:15:59] debug [645f29c stdout]: [reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[2026-09-11 15:15:59] debug [645f29c stdout]: [11:15:59] [AgentHostChannel] Registered IPC channel 'agentHostProxy' (upstream: /tmp/code-329947df-b3bb-47ba-9321-04ac7d53625e)
+[2026-09-11 15:15:59] debug [645f29c stdout]: [11:15:59] Extension host agent started.
+[2026-09-11 15:16:01] debug [645f29c stderr]: (node:2090) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+[2026-09-11 15:16:01] debug [645f29c stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
+[2026-09-11 15:16:02] debug [645f29c stdout]: [IPC Library: Agent Host] Agent host server listening on /tmp/code-329947df-b3bb-47ba-9321-04ac7d53625e
+[2026-09-11 15:16:02] info [645f29c]: Server ready
+[2026-09-11 15:16:02] debug [645f29c stdout]: [11:16:02] ServerAgentHostManager: agent host started
+[2026-09-13 17:22:30] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-09-13 17:22:31] debug Resolved quality Stable to 645f29cc3176500b4b5762ba887cf2a7f0ffdf2c
+[2026-09-13 17:22:31] debug Resolved server version: 1.137.0 (commit 645f29cc3176500b4b5762ba887cf2a7f0ffdf2c)
+[2026-09-13 17:22:34] debug Listening for agent host management requests on "/tmp/code-1ca2dd31-7864-44fc-92db-0b322a4b2c62"
+[2026-09-13 17:22:35] debug [645f29c stdout]: *
+[2026-09-13 17:22:35] debug [645f29c stdout]: * Visual Studio Code Server
+[2026-09-13 17:22:35] debug [645f29c stdout]: *
+[2026-09-13 17:22:35] debug [645f29c stdout]: * By using the software, you agree to
+[2026-09-13 17:22:35] debug [645f29c stdout]: * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[2026-09-13 17:22:35] debug [645f29c stdout]: * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[2026-09-13 17:22:35] debug [645f29c stdout]: *
+[2026-09-13 17:22:35] debug [645f29c stdout]: Server bound to /tmp/code-62cfb051-c3ca-426d-a059-6561d2fe3620
+[2026-09-13 17:22:35] debug [645f29c stdout]: Extension host agent listening on /tmp/code-62cfb051-c3ca-426d-a059-6561d2fe3620
+[2026-09-13 17:22:35] debug [645f29c stdout]: 
+[2026-09-13 17:22:35] debug [645f29c stdout]: [13:22:35] 
+[2026-09-13 17:22:35] debug [645f29c stdout]: 
+[2026-09-13 17:22:35] debug [645f29c stdout]: 
+[2026-09-13 17:22:35] debug [645f29c stdout]: 
+[2026-09-13 17:22:35] debug [645f29c stdout]: 
+[2026-09-13 17:22:36] debug [645f29c stdout]: [reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[2026-09-13 17:22:36] debug [645f29c stdout]: [13:22:36] [AgentHostChannel] Registered IPC channel 'agentHostProxy' (upstream: /tmp/code-146014dc-c24f-4dbd-b515-51debac0c269)
+[2026-09-13 17:22:36] debug [645f29c stdout]: [13:22:36] Extension host agent started.
+[2026-09-13 17:22:38] debug [645f29c stderr]: (node:1390) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+[2026-09-13 17:22:38] debug [645f29c stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
+[2026-09-13 17:22:39] debug [645f29c stdout]: [IPC Library: Agent Host] Agent host server listening on /tmp/code-146014dc-c24f-4dbd-b515-51debac0c269
+[2026-09-13 17:22:39] info [645f29c]: Server ready
+[2026-09-13 17:22:39] debug [645f29c stdout]: [13:22:39] ServerAgentHostManager: agent host started
+[2026-09-13 17:58:32] debug [645f29c stdout]: [13:58:32] Extensions added from another source ms-python.debugpy file:///home/ubuntu/.vscode-server/extensions/extensions.json
+[2026-09-13 17:58:33] debug [645f29c stdout]: [13:58:33] Extensions added from another source ms-python.vscode-python-envs file:///home/ubuntu/.vscode-server/extensions/extensions.json
+[2026-09-13 17:58:44] debug [645f29c stdout]: [13:58:44] Extensions added from another source ms-python.python file:///home/ubuntu/.vscode-server/extensions/extensions.json
+[2026-09-13 17:59:09] debug [645f29c stdout]: [13:59:09] Extensions added from another source ms-python.vscode-pylance file:///home/ubuntu/.vscode-server/extensions/extensions.json
+[2026-09-13 18:26:54] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-09-13 18:26:55] warn Error resolving initial server version: Could not check for update: error requesting https://update.code.visualstudio.com/api/latest/server-linux-arm64/stable: error sending request for url (https://update.code.visualstudio.com/api/latest/server-linux-arm64/stable)
+[2026-09-13 18:26:58] debug Listening for agent host management requests on "/tmp/code-55903110-6805-4c72-b0f6-eaefad1fabea"
+[2026-09-13 18:26:59] debug [645f29c stdout]: *
+[2026-09-13 18:26:59] debug [645f29c stdout]: * Visual Studio Code Server
+[2026-09-13 18:26:59] debug [645f29c stdout]: *
+[2026-09-13 18:26:59] debug [645f29c stdout]: * By using the software, you agree to
+[2026-09-13 18:26:59] debug [645f29c stdout]: * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[2026-09-13 18:26:59] debug [645f29c stdout]: * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[2026-09-13 18:26:59] debug [645f29c stdout]: *
+[2026-09-13 18:26:59] debug [645f29c stdout]: Server bound to /tmp/code-ae84a881-23f5-4bbc-b1bf-4791a0c9230b
+[2026-09-13 18:26:59] debug [645f29c stdout]: Extension host agent listening on /tmp/code-ae84a881-23f5-4bbc-b1bf-4791a0c9230b
+[2026-09-13 18:26:59] debug [645f29c stdout]: 
+[2026-09-13 18:27:00] debug [645f29c stdout]: [14:27:00] 
+[2026-09-13 18:27:00] debug [645f29c stdout]: 
+[2026-09-13 18:27:00] debug [645f29c stdout]: 
+[2026-09-13 18:27:00] debug [645f29c stdout]: 
+[2026-09-13 18:27:00] debug [645f29c stdout]: 
+[2026-09-13 18:27:00] debug [645f29c stdout]: [reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[2026-09-13 18:27:00] debug [645f29c stdout]: [14:27:00] [AgentHostChannel] Registered IPC channel 'agentHostProxy' (upstream: /tmp/code-bc749749-c7bb-4b04-88ad-3856092eed65)
+[2026-09-13 18:27:00] debug [645f29c stdout]: [14:27:00] Extension host agent started.
+[2026-09-13 18:27:04] debug [645f29c stderr]: (node:1144) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+[2026-09-13 18:27:04] debug [645f29c stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
+[2026-09-17 17:25:01] debug [645f29c stdout]: [IPC Library: Agent Host] Agent host server listening on /tmp/code-bc749749-c7bb-4b04-88ad-3856092eed65
+[2026-09-17 17:25:01] info [645f29c]: Server ready
+[2026-09-17 17:25:01] debug [645f29c stdout]: [13:25:01] ServerAgentHostManager: agent host started
+[2026-09-18 12:37:13] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-09-18 12:37:13] debug Resolved quality Stable to 7debcd0e2acdea1c52de81bf9ee1620444407dda
+[2026-09-18 12:37:13] debug Resolved server version: 1.138.0 (commit 7debcd0e2acdea1c52de81bf9ee1620444407dda)
+[2026-09-18 12:37:13] info Downloading server 7debcd0e2acdea1c52de81bf9ee1620444407dda
+[2026-09-18 12:37:14] trace Downloading server: 0/210800842 (0%)
+[2026-09-18 12:37:14] trace Downloading server: 2105344/210800842 (1%)
+[2026-09-18 12:37:15] trace Downloading server: 4210688/210800842 (2%)
+[2026-09-18 12:37:16] trace Downloading server: 6316032/210800842 (3%)
+[2026-09-18 12:37:18] trace Downloading server: 8421376/210800842 (4%)
+[2026-09-18 12:37:19] trace Downloading server: 10526720/210800842 (5%)
+[2026-09-18 12:37:19] trace Downloading server: 12624384/210800842 (6%)
+[2026-09-18 12:37:20] trace Downloading server: 14724736/210800842 (7%)
+[2026-09-18 12:37:21] trace Downloading server: 16826368/210800842 (8%)
+[2026-09-18 12:37:22] trace Downloading server: 18930368/210800842 (9%)
+[2026-09-18 12:37:22] trace Downloading server: 21035411/210800842 (10%)
+[2026-09-18 12:37:23] trace Downloading server: 23137984/210800842 (11%)
+[2026-09-18 12:37:29] trace Downloading server: 25238848/210800842 (12%)
+[2026-09-18 12:37:30] trace Downloading server: 27340352/210800842 (13%)
+[2026-09-18 12:37:31] trace Downloading server: 29441920/210800842 (14%)
+[2026-09-18 12:37:32] trace Downloading server: 31542272/210800842 (15%)
+[2026-09-18 12:37:32] trace Downloading server: 33643776/210800842 (16%)
+[2026-09-18 12:37:33] trace Downloading server: 35745344/210800842 (17%)
+[2026-09-18 12:37:34] trace Downloading server: 37842624/210800842 (18%)
+[2026-09-18 12:37:34] trace Downloading server: 39943488/210800842 (19%)
+[2026-09-18 12:37:35] trace Downloading server: 42044992/210800842 (20%)
+[2026-09-18 12:37:35] trace Downloading server: 44146048/210800842 (21%)
+[2026-09-18 12:37:36] trace Downloading server: 46247616/210800842 (22%)
+[2026-09-18 12:37:37] trace Downloading server: 48345280/210800842 (23%)
+[2026-09-18 12:37:38] trace Downloading server: 50445954/210800842 (24%)
+[2026-09-18 12:37:38] trace Downloading server: 52547200/210800842 (25%)
+[2026-09-18 12:37:39] trace Downloading server: 54649984/210800842 (26%)
+[2026-09-18 12:37:39] trace Downloading server: 56748416/210800842 (27%)
+[2026-09-18 12:37:40] trace Downloading server: 58846848/210800842 (28%)
+[2026-09-18 12:37:40] trace Downloading server: 60948480/210800842 (29%)
+[2026-09-18 12:37:41] trace Downloading server: 63052480/210800842 (30%)
+[2026-09-18 12:37:41] trace Downloading server: 65150912/210800842 (31%)
+[2026-09-18 12:37:42] trace Downloading server: 67248128/210800842 (32%)
+[2026-09-18 12:37:42] trace Downloading server: 69348992/210800842 (33%)
+[2026-09-18 12:37:43] trace Downloading server: 71448000/210800842 (34%)
+[2026-09-18 12:37:44] trace Downloading server: 73548928/210800842 (35%)
+[2026-09-18 12:37:44] trace Downloading server: 75647360/210800842 (36%)
+[2026-09-18 12:37:44] trace Downloading server: 77745856/210800842 (37%)
+[2026-09-18 12:37:45] trace Downloading server: 79844160/210800842 (38%)
+[2026-09-18 12:37:45] trace Downloading server: 81942592/210800842 (39%)
+[2026-09-18 12:37:46] trace Downloading server: 84041024/210800842 (40%)
+[2026-09-18 12:37:46] trace Downloading server: 86142528/210800842 (41%)
+[2026-09-18 12:37:47] trace Downloading server: 88242240/210800842 (42%)
+[2026-09-18 12:37:47] trace Downloading server: 90340672/210800842 (43%)
+[2026-09-18 12:37:47] trace Downloading server: 92442176/210800842 (44%)
+[2026-09-18 12:37:48] trace Downloading server: 94545024/210800842 (45%)
+[2026-09-18 12:37:48] trace Downloading server: 96643456/210800842 (46%)
+[2026-09-18 12:37:49] trace Downloading server: 98741888/210800842 (47%)
+[2026-09-18 12:37:50] trace Downloading server: 100841600/210800842 (48%)
+[2026-09-18 12:37:50] trace Downloading server: 102943104/210800842 (49%)
+[2026-09-18 12:37:52] trace Downloading server: 105041536/210800842 (50%)
+[2026-09-18 12:37:52] trace Downloading server: 107144320/210800842 (51%)
+[2026-09-18 12:37:53] trace Downloading server: 109242752/210800842 (52%)
+[2026-09-18 12:37:53] trace Downloading server: 111341184/210800842 (53%)
+[2026-09-18 12:37:53] trace Downloading server: 113438400/210800842 (54%)
+[2026-09-18 12:37:54] trace Downloading server: 115538624/210800842 (55%)
+[2026-09-18 12:37:55] trace Downloading server: 117639552/210800842 (56%)
+[2026-09-18 12:37:55] trace Downloading server: 119742464/210800842 (57%)
+[2026-09-18 12:37:55] trace Downloading server: 121843328/210800842 (58%)
+[2026-09-18 12:37:56] trace Downloading server: 123946112/210800842 (59%)
+[2026-09-18 12:37:56] trace Downloading server: 126047680/210800842 (60%)
+[2026-09-18 12:37:57] trace Downloading server: 128146112/210800842 (61%)
+[2026-09-18 12:37:57] trace Downloading server: 130244544/210800842 (62%)
+[2026-09-18 12:37:58] trace Downloading server: 132347328/210800842 (63%)
+[2026-09-18 12:37:58] trace Downloading server: 134445760/210800842 (64%)
+[2026-09-18 12:37:59] trace Downloading server: 136544192/210800842 (65%)
+[2026-09-18 12:37:59] trace Downloading server: 138646976/210800842 (66%)
+[2026-09-18 12:38:00] trace Downloading server: 140745408/210800842 (67%)
+[2026-09-18 12:38:00] trace Downloading server: 142843840/210800842 (68%)
+[2026-09-18 12:38:00] trace Downloading server: 144945920/210800842 (69%)
+[2026-09-18 12:38:01] trace Downloading server: 147044480/210800842 (70%)
+[2026-09-18 12:38:01] trace Downloading server: 149149760/210800842 (71%)
+[2026-09-18 12:38:02] trace Downloading server: 151248192/210800842 (72%)
+[2026-09-18 12:38:02] trace Downloading server: 153348544/210800842 (73%)
+[2026-09-18 12:38:03] trace Downloading server: 155451328/210800842 (74%)
+[2026-09-18 12:38:03] trace Downloading server: 157551040/210800842 (75%)
+[2026-09-18 12:38:04] trace Downloading server: 159651904/210800842 (76%)
+[2026-09-18 12:38:05] trace Downloading server: 161750336/210800842 (77%)
+[2026-09-18 12:38:05] trace Downloading server: 163850688/210800842 (78%)
+[2026-09-18 12:38:05] trace Downloading server: 165954688/210800842 (79%)
+[2026-09-18 12:38:06] trace Downloading server: 168053184/210800842 (80%)
+[2026-09-18 12:38:07] trace Downloading server: 170156032/210800842 (81%)
+[2026-09-18 12:38:07] trace Downloading server: 172256320/210800842 (82%)
+[2026-09-18 12:38:08] trace Downloading server: 174361600/210800842 (83%)
+[2026-09-18 12:38:08] trace Downloading server: 176461952/210800842 (84%)
+[2026-09-18 12:38:09] trace Downloading server: 178562816/210800842 (85%)
+[2026-09-18 12:38:10] trace Downloading server: 180661248/210800842 (86%)
+[2026-09-18 12:38:10] trace Downloading server: 182761600/210800842 (87%)
+[2026-09-18 12:38:12] trace Downloading server: 184860007/210800842 (88%)
+[2026-09-18 12:38:14] trace Downloading server: 186960896/210800842 (89%)
+[2026-09-18 12:38:14] trace Downloading server: 189061248/210800842 (90%)
+[2026-09-18 12:38:14] trace Downloading server: 191162112/210800842 (91%)
+[2026-09-18 12:38:15] trace Downloading server: 193260544/210800842 (92%)
+[2026-09-18 12:38:16] trace Downloading server: 195360896/210800842 (93%)
+[2026-09-18 12:38:17] trace Downloading server: 197461760/210800842 (94%)
+[2026-09-18 12:38:17] trace Downloading server: 199560192/210800842 (95%)
+[2026-09-18 12:38:18] trace Downloading server: 201660544/210800842 (96%)
+[2026-09-18 12:38:18] trace Downloading server: 203763392/210800842 (97%)
+[2026-09-18 12:38:19] trace Downloading server: 205864256/210800842 (98%)
+[2026-09-18 12:38:19] trace Downloading server: 207964608/210800842 (99%)
+[2026-09-18 12:38:20] trace Downloading server: 210066112/210800842 (100%)
+[2026-09-18 12:38:20] trace Downloading server: 210800842/210800842 (100%)
+[2026-09-18 12:38:40] debug Listening for agent host management requests on "/tmp/code-a985d71d-1479-4fae-ab39-5747ad81edab"
+[2026-09-18 12:38:40] debug [7debcd0 stdout]: *
+[2026-09-18 12:38:40] debug [7debcd0 stdout]: * Visual Studio Code Server
+[2026-09-18 12:38:40] debug [7debcd0 stdout]: *
+[2026-09-18 12:38:40] debug [7debcd0 stdout]: * By using the software, you agree to
+[2026-09-18 12:38:40] debug [7debcd0 stdout]: * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[2026-09-18 12:38:40] debug [7debcd0 stdout]: * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[2026-09-18 12:38:40] debug [7debcd0 stdout]: *
+[2026-09-18 12:38:40] debug [7debcd0 stdout]: Server bound to /tmp/code-33e8ad80-1cbd-4faf-a43d-4bf7d1e41e53
+[2026-09-18 12:38:40] debug [7debcd0 stdout]: Extension host agent listening on /tmp/code-33e8ad80-1cbd-4faf-a43d-4bf7d1e41e53
+[2026-09-18 12:38:40] debug [7debcd0 stdout]: 
+[2026-09-18 12:38:41] debug [7debcd0 stdout]: [08:38:41] 
+[2026-09-18 12:38:41] debug [7debcd0 stdout]: 
+[2026-09-18 12:38:41] debug [7debcd0 stdout]: 
+[2026-09-18 12:38:41] debug [7debcd0 stdout]: 
+[2026-09-18 12:38:41] debug [7debcd0 stdout]: 
+[2026-09-18 12:38:41] debug [7debcd0 stdout]: [reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[2026-09-18 12:38:41] debug [7debcd0 stdout]: [08:38:41] [AgentHostChannel] Registered IPC channel 'agentHostProxy' (upstream: /tmp/code-38b4e669-289c-4c9f-a4c0-a12363479366)
+[2026-09-18 12:38:41] debug [7debcd0 stdout]: [08:38:41] Extension host agent started.
+[2026-09-18 12:38:46] debug [7debcd0 stderr]: (node:1377) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+[2026-09-18 12:38:46] debug [7debcd0 stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
+[2026-09-18 12:38:48] debug [7debcd0 stdout]: [IPC Library: Agent Host] Agent host server listening on /tmp/code-38b4e669-289c-4c9f-a4c0-a12363479366
+[2026-09-18 12:38:48] info [7debcd0]: Server ready
+[2026-09-18 12:38:48] debug [7debcd0 stdout]: [08:38:48] ServerAgentHostManager: agent host started
+[2026-09-18 13:00:44] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-09-18 13:00:44] debug Resolved quality Stable to 7debcd0e2acdea1c52de81bf9ee1620444407dda
+[2026-09-18 13:00:44] debug Resolved server version: 1.138.0 (commit 7debcd0e2acdea1c52de81bf9ee1620444407dda)
+[2026-09-18 13:00:47] debug Listening for agent host management requests on "/tmp/code-376992ed-656d-4755-a213-23e0f92948ee"
+[2026-09-18 13:00:49] debug [7debcd0 stdout]: *
+[2026-09-18 13:00:49] debug [7debcd0 stdout]: * Visual Studio Code Server
+[2026-09-18 13:00:49] debug [7debcd0 stdout]: *
+[2026-09-18 13:00:49] debug [7debcd0 stdout]: * By using the software, you agree to
+[2026-09-18 13:00:49] debug [7debcd0 stdout]: * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[2026-09-18 13:00:49] debug [7debcd0 stdout]: * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[2026-09-18 13:00:49] debug [7debcd0 stdout]: *
+[2026-09-18 13:00:49] debug [7debcd0 stdout]: Server bound to /tmp/code-d77f8b4a-938a-4ef3-bb1e-d847f7ea0312
+[2026-09-18 13:00:49] debug [7debcd0 stdout]: Extension host agent listening on /tmp/code-d77f8b4a-938a-4ef3-bb1e-d847f7ea0312
+[2026-09-18 13:00:49] debug [7debcd0 stdout]: 
+[2026-09-18 13:00:50] debug [7debcd0 stdout]: [09:00:50] 
+[2026-09-18 13:00:50] debug [7debcd0 stdout]: 
+[2026-09-18 13:00:50] debug [7debcd0 stdout]: 
+[2026-09-18 13:00:50] debug [7debcd0 stdout]: 
+[2026-09-18 13:00:50] debug [7debcd0 stdout]: 
+[2026-09-18 13:00:51] debug [7debcd0 stdout]: [reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[2026-09-18 13:00:51] debug [7debcd0 stdout]: [09:00:51] [AgentHostChannel] Registered IPC channel 'agentHostProxy' (upstream: /tmp/code-e3b89408-4b5a-4291-9304-aabb54380cc8)
+[2026-09-18 13:00:51] debug [7debcd0 stdout]: [09:00:51] Extension host agent started.
+[2026-09-18 13:00:55] debug [7debcd0 stderr]: (node:1470) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+[2026-09-18 13:00:55] debug [7debcd0 stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
+[2026-09-18 13:00:57] debug [7debcd0 stdout]: [IPC Library: Agent Host] Agent host server listening on /tmp/code-e3b89408-4b5a-4291-9304-aabb54380cc8
+[2026-09-18 13:00:57] info [7debcd0]: Server ready
+[2026-09-18 13:00:57] debug [7debcd0 stdout]: [09:00:57] ServerAgentHostManager: agent host started
+[2026-09-18 16:30:22] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-09-18 16:30:22] debug Resolved quality Stable to 7debcd0e2acdea1c52de81bf9ee1620444407dda
+[2026-09-18 16:30:22] debug Resolved server version: 1.138.0 (commit 7debcd0e2acdea1c52de81bf9ee1620444407dda)
+[2026-09-18 16:30:26] debug Listening for agent host management requests on "/tmp/code-20ae4201-ce5d-4ee7-899f-4c4e41b994f6"
+[2026-09-18 16:30:29] debug [7debcd0 stdout]: *
+[2026-09-18 16:30:29] debug [7debcd0 stdout]: * Visual Studio Code Server
+[2026-09-18 16:30:29] debug [7debcd0 stdout]: *
+[2026-09-18 16:30:29] debug [7debcd0 stdout]: * By using the software, you agree to
+[2026-09-18 16:30:29] debug [7debcd0 stdout]: * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[2026-09-18 16:30:29] debug [7debcd0 stdout]: * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[2026-09-18 16:30:29] debug [7debcd0 stdout]: *
+[2026-09-18 16:30:29] debug [7debcd0 stdout]: Server bound to /tmp/code-0944da49-a9a8-4443-9e1c-ac63b495de8d
+[2026-09-18 16:30:29] debug [7debcd0 stdout]: Extension host agent listening on /tmp/code-0944da49-a9a8-4443-9e1c-ac63b495de8d
+[2026-09-18 16:30:29] debug [7debcd0 stdout]: 
+[2026-09-18 16:30:30] debug [7debcd0 stdout]: [12:30:30] 
+[2026-09-18 16:30:30] debug [7debcd0 stdout]: 
+[2026-09-18 16:30:30] debug [7debcd0 stdout]: 
+[2026-09-18 16:30:30] debug [7debcd0 stdout]: 
+[2026-09-18 16:30:30] debug [7debcd0 stdout]: 
+[2026-09-18 16:30:30] debug [7debcd0 stdout]: [reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[2026-09-18 16:30:30] debug [7debcd0 stdout]: [12:30:30] [AgentHostChannel] Registered IPC channel 'agentHostProxy' (upstream: /tmp/code-020c0e57-f2ac-4c40-9a13-e9a13ce7555f)
+[2026-09-18 16:30:30] debug [7debcd0 stdout]: [12:30:30] Extension host agent started.
+[2026-09-18 16:43:29] debug [7debcd0 stderr]: (node:1167) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+[2026-09-18 16:43:29] debug [7debcd0 stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
+[2026-09-18 16:43:32] debug [7debcd0 stdout]: [IPC Library: Agent Host] Agent host server listening on /tmp/code-020c0e57-f2ac-4c40-9a13-e9a13ce7555f
+[2026-09-18 16:43:32] info [7debcd0]: Server ready
+[2026-09-18 16:43:33] debug [7debcd0 stdout]: [12:43:33] ServerAgentHostManager: agent host started
+[2026-09-21 21:59:29] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-09-21 21:59:29] debug Resolved quality Stable to 7debcd0e2acdea1c52de81bf9ee1620444407dda
+[2026-09-21 21:59:29] debug Resolved server version: 1.138.0 (commit 7debcd0e2acdea1c52de81bf9ee1620444407dda)
+[2026-09-21 21:59:36] debug Listening for agent host management requests on "/tmp/code-9bfc5df9-3468-4b2c-887a-f5cc81178a23"
+[2026-09-21 21:59:38] debug [7debcd0 stdout]: *
+[2026-09-21 21:59:38] debug [7debcd0 stdout]: * Visual Studio Code Server
+[2026-09-21 21:59:38] debug [7debcd0 stdout]: *
+[2026-09-21 21:59:38] debug [7debcd0 stdout]: * By using the software, you agree to
+[2026-09-21 21:59:38] debug [7debcd0 stdout]: * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[2026-09-21 21:59:38] debug [7debcd0 stdout]: * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[2026-09-21 21:59:38] debug [7debcd0 stdout]: *
+[2026-09-21 21:59:38] debug [7debcd0 stdout]: Server bound to /tmp/code-b77887a1-4495-444f-994d-014aed928b21
+[2026-09-21 21:59:38] debug [7debcd0 stdout]: Extension host agent listening on /tmp/code-b77887a1-4495-444f-994d-014aed928b21
+[2026-09-21 21:59:38] debug [7debcd0 stdout]: 
+[2026-09-21 21:59:39] debug [7debcd0 stdout]: [17:59:39] 
+[2026-09-21 21:59:39] debug [7debcd0 stdout]: 
+[2026-09-21 21:59:39] debug [7debcd0 stdout]: 
+[2026-09-21 21:59:39] debug [7debcd0 stdout]: 
+[2026-09-21 21:59:39] debug [7debcd0 stdout]: 
+[2026-09-21 21:59:39] debug [7debcd0 stdout]: [reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[2026-09-21 21:59:39] debug [7debcd0 stdout]: [17:59:39] [AgentHostChannel] Registered IPC channel 'agentHostProxy' (upstream: /tmp/code-f9df04d3-2cbf-4b51-b0cd-61c1cf53fffc)
+[2026-09-21 21:59:39] debug [7debcd0 stdout]: [17:59:39] Extension host agent started.
+[2026-09-21 21:59:42] debug [7debcd0 stderr]: (node:1554) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+[2026-09-21 21:59:42] debug [7debcd0 stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
+[2026-09-21 21:59:44] debug [7debcd0 stdout]: [IPC Library: Agent Host] Agent host server listening on /tmp/code-f9df04d3-2cbf-4b51-b0cd-61c1cf53fffc
+[2026-09-21 21:59:44] info [7debcd0]: Server ready
+[2026-09-21 21:59:44] debug [7debcd0 stdout]: [17:59:44] ServerAgentHostManager: agent host started
+[2026-09-21 23:26:42] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-09-21 23:26:43] debug Resolved quality Stable to 7debcd0e2acdea1c52de81bf9ee1620444407dda
+[2026-09-21 23:26:43] debug Resolved server version: 1.138.0 (commit 7debcd0e2acdea1c52de81bf9ee1620444407dda)
+[2026-09-21 23:26:46] debug Listening for agent host management requests on "/tmp/code-271d84db-a49e-4e51-ad07-c7a5b0d7d439"
+[2026-09-22 18:02:14] debug [7debcd0 stdout]: *
+[2026-09-22 18:02:14] debug [7debcd0 stdout]: * Visual Studio Code Server
+[2026-09-22 18:02:14] debug [7debcd0 stdout]: *
+[2026-09-22 18:02:14] debug [7debcd0 stdout]: * By using the software, you agree to
+[2026-09-22 18:02:14] debug [7debcd0 stdout]: * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[2026-09-22 18:02:14] debug [7debcd0 stdout]: * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[2026-09-22 18:02:14] debug [7debcd0 stdout]: *
+[2026-09-22 18:02:14] debug [7debcd0 stdout]: Server bound to /tmp/code-24b9b686-2c06-4d70-b122-b05f8c6616df
+[2026-09-22 18:02:14] debug [7debcd0 stdout]: Extension host agent listening on /tmp/code-24b9b686-2c06-4d70-b122-b05f8c6616df
+[2026-09-22 18:02:14] debug [7debcd0 stdout]: 
+[2026-09-22 18:02:15] debug [7debcd0 stdout]: [14:02:15] 
+[2026-09-22 18:02:15] debug [7debcd0 stdout]: 
+[2026-09-22 18:02:15] debug [7debcd0 stdout]: 
+[2026-09-22 18:02:15] debug [7debcd0 stdout]: 
+[2026-09-22 18:02:15] debug [7debcd0 stdout]: 
+[2026-09-22 18:02:16] debug [7debcd0 stdout]: [reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[2026-09-22 18:02:16] debug [7debcd0 stdout]: [14:02:16] [AgentHostChannel] Registered IPC channel 'agentHostProxy' (upstream: /tmp/code-bbaea4a1-2a5c-430e-a622-e4e81c0e368b)
+[2026-09-22 18:02:16] debug [7debcd0 stdout]: [14:02:16] Extension host agent started.
+[2026-09-22 18:02:20] debug [7debcd0 stderr]: (node:1157) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+[2026-09-22 18:02:20] debug [7debcd0 stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
+[2026-09-22 18:02:24] debug [7debcd0 stdout]: [IPC Library: Agent Host] Agent host server listening on /tmp/code-bbaea4a1-2a5c-430e-a622-e4e81c0e368b
+[2026-09-22 18:02:24] info [7debcd0]: Server ready
+[2026-09-22 18:02:24] debug [7debcd0 stdout]: [14:02:24] ServerAgentHostManager: agent host started
+[2026-09-22 18:36:17] info Agent host supervisor logging to /home/ubuntu/.vscode-server/cli/agent-host-stable.log
+[2026-09-22 18:36:17] debug Resolved quality Stable to 7debcd0e2acdea1c52de81bf9ee1620444407dda
+[2026-09-22 18:36:17] debug Resolved server version: 1.138.0 (commit 7debcd0e2acdea1c52de81bf9ee1620444407dda)
+[2026-09-22 18:36:21] debug Listening for agent host management requests on "/tmp/code-c5737f23-15af-40cb-8319-e4311f11432f"
+[2026-09-22 18:36:23] debug [7debcd0 stdout]: *
+[2026-09-22 18:36:23] debug [7debcd0 stdout]: * Visual Studio Code Server
+[2026-09-22 18:36:23] debug [7debcd0 stdout]: *
+[2026-09-22 18:36:23] debug [7debcd0 stdout]: * By using the software, you agree to
+[2026-09-22 18:36:23] debug [7debcd0 stdout]: * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+[2026-09-22 18:36:23] debug [7debcd0 stdout]: * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+[2026-09-22 18:36:23] debug [7debcd0 stdout]: *
+[2026-09-22 18:36:23] debug [7debcd0 stdout]: Server bound to /tmp/code-1acd7cd6-0f00-4d9a-ad12-1e427a1a48d5
+[2026-09-22 18:36:23] debug [7debcd0 stdout]: Extension host agent listening on /tmp/code-1acd7cd6-0f00-4d9a-ad12-1e427a1a48d5
+[2026-09-22 18:36:23] debug [7debcd0 stdout]: 
+[2026-09-22 18:36:24] debug [7debcd0 stdout]: [14:36:24] 
+[2026-09-22 18:36:24] debug [7debcd0 stdout]: 
+[2026-09-22 18:36:24] debug [7debcd0 stdout]: 
+[2026-09-22 18:36:24] debug [7debcd0 stdout]: 
+[2026-09-22 18:36:24] debug [7debcd0 stdout]: 
+[2026-09-22 18:36:24] debug [7debcd0 stdout]: [reconnection-grace-time] No CLI argument provided, using default: 10800000ms (10800s)
+[2026-09-22 18:36:24] debug [7debcd0 stdout]: [14:36:24] [AgentHostChannel] Registered IPC channel 'agentHostProxy' (upstream: /tmp/code-3bcfa898-10a5-4cd0-8b6c-e3b3e90f4eb8)
+[2026-09-22 18:36:24] debug [7debcd0 stdout]: [14:36:24] Extension host agent started.
+[2026-09-22 18:36:27] debug [7debcd0 stderr]: (node:1134) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+[2026-09-22 18:36:27] debug [7debcd0 stderr]: (Use `node --trace-deprecation ...` to show where the warning was created)
+[2026-09-22 18:42:09] debug [7debcd0 stdout]: [IPC Library: Agent Host] Agent host server listening on /tmp/code-3bcfa898-10a5-4cd0-8b6c-e3b3e90f4eb8
+[2026-09-22 18:42:09] info [7debcd0]: Server ready
+[2026-09-22 18:42:09] debug [7debcd0 stdout]: [14:42:09] ServerAgentHostManager: agent host started

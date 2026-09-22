@@ -1,0 +1,73 @@
+2026-09-18 09:07:31.864 [info] Python-envs extension version: 1.36.0
+2026-09-18 09:07:31.865 [info] 
+=== Python Envs Configuration Levels ===
+2026-09-18 09:07:31.865 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-09-18 09:07:31.865 [info] [pet] Starting Python Locator /home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/python-env-tools/bin/pet server
+2026-09-18 09:07:31.865 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-09-18 09:07:31.865 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-09-18 09:07:31.865 [info] Registering poetry manager (environments will be discovered lazily)
+2026-09-18 09:07:31.972 [warning] No workspace folder for relative search path: .venv
+2026-09-18 09:07:31.972 [warning] No workspace folder for relative search path: */.venv
+2026-09-18 09:07:31.974 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":[],"environmentDirectories":[],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/ubuntu/.vscode-server/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-09-18 09:07:32.633 [info] Refreshing Pyenv Environments
+2026-09-18 09:07:32.633 [info] Refreshing pyenv environments
+2026-09-18 09:07:32.634 [info] Refreshing Pipenv Environments
+2026-09-18 09:07:32.634 [info] Refreshing pipenv environments
+2026-09-18 09:07:32.634 [info] Refreshing Poetry Environments
+2026-09-18 09:07:32.634 [info] Refreshing poetry environments
+2026-09-18 09:07:32.764 [info] Discovered env: /usr/bin/python3
+2026-09-18 09:07:32.781 [warning] No workspace folder for relative search path: .venv
+2026-09-18 09:07:32.781 [warning] No workspace folder for relative search path: */.venv
+2026-09-18 09:07:32.785 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at L (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:629081)
+	at async V (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:629206)
+	at async t.registerCondaFeatures (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:648591)
+	at async t.safeRegister (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:290365)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:782813)]
+2026-09-18 09:07:32.804 [info] [interpreterSelection] Applying initial environment selection for 0 workspace folder(s)
+2026-09-18 09:07:33.005 [warning] No workspace folder for relative search path: .venv
+2026-09-18 09:07:33.005 [warning] No workspace folder for relative search path: */.venv
+2026-09-18 09:07:33.162 [info] Discovered env: /usr/bin/python3
+2026-09-18 09:07:33.163 [info] Resolved Python Environment /usr/bin/python3
+2026-09-18 09:07:33.355 [info] Python API: Changed environment from undefined to Python 3.10.12.final.0 for: global
+2026-09-18 09:07:33.355 [info] Internal: Changed environment from undefined to Python 3.10.12.final.0 for: global
+2026-09-18 09:07:33.355 [info] [interpreterSelection] global: Python 3.10.12.final.0 (source: autoDiscovery)
+2026-09-18 09:07:33.450 [warning] No workspace folder for relative search path: .venv
+2026-09-18 09:07:33.450 [warning] No workspace folder for relative search path: */.venv
+2026-09-18 09:07:33.511 [info] Refreshing pyenv environments
+2026-09-18 09:07:33.612 [info] Pipenv not found via settings, cache, or PATH
+2026-09-18 09:07:33.614 [info] Refreshing pipenv environments
+2026-09-18 09:07:33.631 [info] Pipenv not found via settings, cache, or PATH
+2026-09-18 09:07:33.632 [info] Found 0 pipenv environments
+2026-09-18 09:07:35.516 [info] Discovered env: /usr/bin/python3
+2026-09-18 09:07:35.992 [warning] No workspace folder for relative search path: .venv
+2026-09-18 09:07:35.993 [warning] No workspace folder for relative search path: */.venv
+2026-09-18 09:07:36.413 [info] Discovered env: /usr/bin/python3
+2026-09-18 09:07:36.429 [warning] No workspace folder for relative search path: .venv
+2026-09-18 09:07:36.430 [warning] No workspace folder for relative search path: */.venv
+2026-09-18 09:07:36.461 [info] Pipenv not found via settings, cache, or PATH
+2026-09-18 09:07:39.073 [info] Discovered env: /usr/bin/python3
+2026-09-18 09:07:39.136 [warning] No workspace folder for relative search path: .venv
+2026-09-18 09:07:39.136 [warning] No workspace folder for relative search path: */.venv
+2026-09-18 09:07:39.490 [info] Discovered env: /usr/bin/python3
+2026-09-18 09:07:39.547 [info] Refreshing poetry environments
+2026-09-18 09:07:39.556 [info] Pipenv not found via settings, cache, or PATH
+2026-09-18 09:07:39.556 [info] Found 0 pipenv environments
+2026-09-18 09:07:39.582 [info] Poetry executable not found
+2026-09-18 09:07:39.590 [info] Poetry executable not found
+2026-09-18 09:07:39.601 [info] Environment discovery complete: 1 environments found (Global: 1)

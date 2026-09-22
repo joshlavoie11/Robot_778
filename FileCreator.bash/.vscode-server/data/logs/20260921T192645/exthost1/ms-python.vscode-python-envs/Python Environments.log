@@ -1,0 +1,219 @@
+2026-09-22 14:02:29.956 [info] Python-envs extension version: 1.36.0
+2026-09-22 14:02:29.956 [info] 
+=== Python Envs Configuration Levels ===
+2026-09-22 14:02:29.956 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-09-22 14:02:29.956 [info] [pet] Starting Python Locator /home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/python-env-tools/bin/pet server
+2026-09-22 14:02:29.956 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-09-22 14:02:29.956 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-09-22 14:02:29.956 [info] Registering poetry manager (environments will be discovered lazily)
+2026-09-22 14:02:30.213 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/ubuntu/ros2_ws/jerro_navigation"],"environmentDirectories":["/home/ubuntu/ros2_ws/jerro_navigation/.venv","/home/ubuntu/ros2_ws/jerro_navigation/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/ubuntu/.vscode-server/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-09-22 14:02:30.546 [info] Refreshing Pyenv Environments
+2026-09-22 14:02:30.546 [info] Refreshing pyenv environments
+2026-09-22 14:02:30.546 [info] Refreshing Pipenv Environments
+2026-09-22 14:02:30.546 [info] Refreshing pipenv environments
+2026-09-22 14:02:30.546 [info] Refreshing Poetry Environments
+2026-09-22 14:02:30.546 [info] Refreshing poetry environments
+2026-09-22 14:02:31.105 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/ubuntu/ros2_ws/jerro_navigation"],"environmentDirectories":["/home/ubuntu/ros2_ws/jerro_navigation/.venv","/home/ubuntu/ros2_ws/jerro_navigation/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/ubuntu/.vscode-server/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-09-22 14:02:31.551 [error] [pet] [2m   1.854026666s[0m [33m WARN[0m [2mpet_python_utils::cache[0m[2m:[0m Cache directory has already been set to "/home/ubuntu/.vscode-server/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator". Cannot change it now.
+
+2026-09-22 14:02:33.064 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:02:33.451 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:02:33.699 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:02:33.803 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:02:33.916 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:02:34.300 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:02:34.321 [info] Refreshing pyenv environments
+2026-09-22 14:02:34.465 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:02:34.517 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:02:34.566 [info] Pipenv not found via settings, cache, or PATH
+2026-09-22 14:02:34.566 [info] Found 0 pipenv environments
+2026-09-22 14:02:34.570 [info] Pipenv not found via settings, cache, or PATH
+2026-09-22 14:02:34.572 [info] Refreshing pipenv environments
+2026-09-22 14:02:34.590 [info] Pipenv not found via settings, cache, or PATH
+2026-09-22 14:02:34.590 [info] Found 0 pipenv environments
+2026-09-22 14:02:34.606 [info] Pipenv not found via settings, cache, or PATH
+2026-09-22 14:02:34.638 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:02:34.700 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:02:34.748 [info] Poetry executable not found
+2026-09-22 14:02:34.759 [info] Refreshing poetry environments
+2026-09-22 14:02:34.779 [info] Poetry executable not found
+2026-09-22 14:02:34.798 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:02:34.865 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at L (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:629081)
+	at runNextTicks (node:internal/process/task_queues:65:5)
+	at process.processImmediate (node:internal/timers:472:9)
+	at async V (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:629206)
+	at async t.registerCondaFeatures (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:648591)
+	at async t.safeRegister (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:290365)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:782813)]
+2026-09-22 14:02:34.880 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-09-22 14:02:34.892 [info] [SYS_SET] scope=/home/ubuntu/ros2_ws/jerro_navigation, project=/home/ubuntu/ros2_ws/jerro_navigation, normalizedKey=/home/ubuntu/ros2_ws/jerro_navigation, env=Python 3.10.12.final.0-udswy6w3p4n
+2026-09-22 14:02:35.055 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:02:35.074 [info] Python API: Changed environment from undefined to Python 3.10.12.final.0 for: /home/ubuntu/ros2_ws/jerro_navigation
+2026-09-22 14:02:35.075 [info] Internal: Changed environment from undefined to Python 3.10.12.final.0 for: /home/ubuntu/ros2_ws/jerro_navigation
+2026-09-22 14:02:35.079 [info] [interpreterSelection] jerro_navigation: Python 3.10.12.final.0 (source: autoDiscovery)
+2026-09-22 14:02:35.079 [info] [interpreterSelection] Workspace env resolved, deferring global scope to background
+2026-09-22 14:02:35.149 [info] Environment discovery complete: 1 environments found (Global: 1)
+2026-09-22 14:02:35.185 [info] Python API: Changed environment from undefined to Python 3.10.12.final.0 for: global
+2026-09-22 14:02:35.185 [info] Internal: Changed environment from undefined to Python 3.10.12.final.0 for: global
+2026-09-22 14:02:35.186 [info] [interpreterSelection] global: Python 3.10.12.final.0 (source: autoDiscovery)
+2026-09-22 14:02:47.849 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:02:47.934 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:02:48.041 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:02:48.119 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:02:48.202 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:03:01.354 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:03:01.404 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:03:01.455 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:03:01.510 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:03:01.562 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:03:30.511 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:03:30.562 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:03:30.616 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:03:30.666 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:03:30.722 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:04:14.957 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:04:15.014 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:04:15.071 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:04:15.125 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:04:15.176 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:28.621 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:28.685 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:28.741 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:28.801 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:28.863 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:38.947 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:39.003 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:39.059 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:39.114 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:39.170 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:42.724 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:42.777 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:42.834 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:42.888 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:42.941 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:54.949 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:55.022 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:55.144 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:55.215 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:55.274 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:55.678 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:55.763 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:55.843 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:55.900 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:14:55.961 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:15:10.298 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:15:10.359 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:15:10.419 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:15:10.474 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:15:10.530 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:16:08.261 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:16:08.323 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:16:08.381 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:16:08.443 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:16:08.493 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:17:43.265 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:17:43.322 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:17:43.378 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:17:43.435 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:17:43.490 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:17:47.327 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:17:47.395 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:17:47.449 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:17:47.509 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:17:47.562 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:18:59.482 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:18:59.601 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:18:59.688 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:18:59.794 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:18:59.994 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:19:21.218 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:19:21.316 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:19:21.388 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:19:21.487 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:19:21.553 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:19:38.180 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:19:38.255 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:19:38.337 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:19:38.433 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:19:38.514 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:20:11.041 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:20:11.098 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:20:11.159 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:20:11.213 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:20:11.271 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:33.922 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:33.979 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:34.037 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:34.095 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:34.149 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:41.389 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:41.443 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:41.503 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:41.557 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:41.613 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:47.881 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:47.941 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:47.995 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:48.064 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:48.123 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:48.592 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:48.651 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:48.710 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:48.769 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:24:48.871 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:36.960 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:37.039 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:37.101 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:37.171 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:37.243 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:38.206 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:38.272 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:38.332 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:38.388 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:38.577 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:48.841 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:48.900 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:48.961 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:49.024 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:25:49.087 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:26:00.854 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:26:00.910 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:26:00.967 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:26:01.022 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:26:01.079 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:27:00.109 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:27:00.163 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:27:00.218 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:27:00.273 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:27:00.326 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:31:00.111 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:31:00.189 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:31:00.263 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:31:00.337 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:31:00.412 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:52.517 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:52.575 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:52.630 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:52.685 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:52.739 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:56.812 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:56.868 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:56.921 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:56.976 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:57.030 [info] Resolved Python Environment /usr/bin/python3

@@ -1,0 +1,46 @@
+2026-09-21 17:59:44.114 [info] Agent Host process started successfully
+2026-09-21 17:59:44.191 [info] AgentService initialized
+2026-09-21 17:59:44.217 [info] Registering agent provider: copilotcli
+2026-09-21 17:59:44.228 [info] Registering agent provider: claude
+2026-09-21 17:59:44.319 [info] [WebSocketProtocol] Server listening on socket /tmp/code-f9df04d3-2cbf-4b51-b0cd-61c1cf53fffc
+2026-09-21 17:59:44.320 [info] [AgentHost] WebSocket server listening on /tmp/code-f9df04d3-2cbf-4b51-b0cd-61c1cf53fffc
+2026-09-21 17:59:44.368 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-09-21 17:59:44.375 [info] [Copilot] Auto routing profiles toggled; refreshing models
+2026-09-21 17:59:44.464 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-21 17:59:44.552 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-09-21 17:59:46.936 [info] [ProtocolServer] Initialize: clientId=c7ea78c4-a979-494d-99d1-17df3735de1b, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-21 17:59:50.656 [info] [Copilot] Auto routing profiles toggled; refreshing models
+2026-09-21 17:59:50.678 [info] [Copilot] Auto routing profiles toggled; refreshing models
+2026-09-21 17:59:50.685 [info] [Copilot] Auto routing profiles toggled; refreshing models
+2026-09-21 17:59:50.692 [info] [Copilot] Auto routing profiles toggled; refreshing models
+2026-09-21 17:59:50.752 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-09-21 17:59:50.754 [info] [Copilot] Listing discoverable chats...
+2026-09-21 17:59:50.758 [info] [Copilot] Starting CopilotClient...
+2026-09-21 17:59:50.761 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-09-21 17:59:50.849 [info] [Copilot] Resolved CLI path: /home/ubuntu/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node_modules/@github/copilot-linux-arm64/index.js
+2026-09-21 17:59:50.899 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-09-21 17:59:52.737 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-21 17:59:56.012 [info] [Copilot] CopilotClient started successfully
+2026-09-21 17:59:56.034 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-09-21 17:59:56.036 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-09-21 18:00:28.993 [info] [ProtocolServer] Initialize: clientId=14bc98a5-7e95-4644-b721-3c45f4fdcb75, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-21 18:00:29.539 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-21 18:00:30.356 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-21 18:00:44.772 [info] [ProtocolServer] Client disconnected: 14bc98a5-7e95-4644-b721-3c45f4fdcb75, subscriptions=1
+2026-09-21 18:00:57.305 [info] [ProtocolServer] Initialize: clientId=a009e271-fd9a-46ea-93dc-e0c616929ec2, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-21 18:00:58.303 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-21 18:00:58.984 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-21 18:01:01.793 [info] [ProtocolServer] Client disconnected: a009e271-fd9a-46ea-93dc-e0c616929ec2, subscriptions=1
+2026-09-21 18:10:52.366 [info] [ProtocolServer] Initialize: clientId=2415c4b5-1827-417d-a96a-503f2d314e77, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-21 18:10:52.988 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-21 18:10:54.113 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-21 18:18:13.398 [info] [ProtocolServer] Initialize: clientId=25d976fe-76e5-42bd-a2cf-9faa6ee3212b, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-21 18:18:13.860 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-21 18:18:14.871 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-21 18:27:15.049 [info] [ProtocolServer] Client disconnected: 2415c4b5-1827-417d-a96a-503f2d314e77, subscriptions=1
+2026-09-21 19:10:51.291 [info] [ProtocolServer] Initialize: clientId=9f0ab810-fe8a-4608-9a0d-905df3b73595, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-21 19:10:55.443 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-21 19:11:03.896 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-21 19:15:42.952 [info] [ProtocolServer] Client disconnected: c7ea78c4-a979-494d-99d1-17df3735de1b, subscriptions=1
+2026-09-21 19:40:19.938 [info] [ProtocolServer] Client disconnected: 9f0ab810-fe8a-4608-9a0d-905df3b73595, subscriptions=1
+2026-09-21 19:40:47.769 [info] [ProtocolServer] Client disconnected: 25d976fe-76e5-42bd-a2cf-9faa6ee3212b, subscriptions=1

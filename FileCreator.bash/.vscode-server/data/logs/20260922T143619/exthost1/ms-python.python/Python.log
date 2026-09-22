@@ -1,0 +1,7 @@
+2026-09-22 14:43:23.646 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-09-22 14:43:23.991 [info] [test-by-project] Activating project-based testing mode
+2026-09-22 14:43:23.992 [info] Native locator: Refresh started
+2026-09-22 14:43:23.993 [info] [test-by-project] Subscribed to Python project changes
+2026-09-22 14:43:24.488 [info] Active interpreter [global]:  /usr/bin/python3
+2026-09-22 14:43:30.369 [info] Starting Pylance language server.
+2026-09-22 14:43:30.465 [info] Native locator: Refresh finished in 6476 ms

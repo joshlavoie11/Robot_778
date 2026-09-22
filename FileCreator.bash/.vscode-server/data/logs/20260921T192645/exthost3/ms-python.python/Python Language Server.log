@@ -1,0 +1,38 @@
+2026-09-22 14:27:35.250 [info] Client: Updating workspace folders: added=[file:///home/ubuntu/ros2_ws/src], removed=[]
+2026-09-22 14:27:35.806 [info] Client: Pylance client (2026.3.1) started with python extension (2026.4.0)
+2026-09-22 14:27:37.834 [info] (6215): Server root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-22 14:27:37.947 [info] (6215): Pylance language server 2026.3.1 (pyright version 1.1.411, commit 9a9205fc) starting
+2026-09-22 14:27:38.158 [info] (6215): Starting service instance "src" for workspace "/home/ubuntu/ros2_ws/src"
+2026-09-22 14:27:44.809 [info] (6215): Loading background bundle file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into file:///home/ubuntu/ros2_ws/src...
+2026-09-22 14:27:45.077 [info] (6215): Starting service instance "src" for workspace "/home/ubuntu/ros2_ws/src"
+2026-09-22 14:27:45.078 [info] (6215): Loading background bundle file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into file:///home/ubuntu/ros2_ws/src...
+2026-09-22 14:27:45.096 [info] (6215): Starting Mcp server id:42977 ...
+2026-09-22 14:27:45.537 [info] (6215): FG(src): Setting environmentName for service "src": "Python 3.10.12.final.0"
+2026-09-22 14:27:45.544 [info] (6215): FG(src): Setting pythonPath for service "src": "/usr/bin/python3"
+2026-09-22 14:27:45.549 [info] (6215): FG(src): No include entries specified; assuming /home/ubuntu/ros2_ws/src
+2026-09-22 14:27:45.570 [info] (6215): FG(src): Auto-excluding **/node_modules
+2026-09-22 14:27:45.575 [info] (6215): FG(src): Auto-excluding **/__pycache__
+2026-09-22 14:27:45.580 [info] (6215): FG(src): Auto-excluding **/.*
+2026-09-22 14:27:45.824 [info] (6215): FG(src): Assuming Python version 3.10.12.final.0
+2026-09-22 14:27:46.650 [info] (6215): Settings have not changed. Skipping update.
+2026-09-22 14:27:47.303 [info] (6215): FG(src): Setting environmentName for service "src": "Python 3.10.12.final.0"
+2026-09-22 14:27:47.304 [info] (6215): FG(src): Setting pythonPath for service "src": "/usr/bin/python3"
+2026-09-22 14:27:47.305 [info] (6215): FG(src): No include entries specified; assuming /home/ubuntu/ros2_ws/src
+2026-09-22 14:27:47.305 [info] (6215): FG(src): Auto-excluding **/node_modules
+2026-09-22 14:27:47.306 [info] (6215): FG(src): Auto-excluding **/__pycache__
+2026-09-22 14:27:47.306 [info] (6215): FG(src): Auto-excluding **/.*
+2026-09-22 14:27:47.307 [info] (6215): FG(src): Assuming Python version 3.10.12.final.0
+2026-09-22 14:27:48.166 [info] (6215): FG(src): Found 14 source files
+2026-09-22 14:27:48.271 [info] (6215): PQ(src): Priority queue background worker(4) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-22 14:27:48.273 [info] (6215): PQ(src): Priority queue background worker(4) started
+2026-09-22 14:27:48.279 [info] (6215): Settings have not changed. Skipping update.
+2026-09-22 14:27:50.887 [info] (6215): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python3
+2026-09-22 14:27:50.974 [info] (6215): [Editable Installs] No sandbox available for Python /usr/bin/python3. Dynamic pth file resolution requires Python 3.13 or later.
+2026-09-22 14:27:58.379 [info] (6215): BG(src): Long operation: SemanticTokens range 0:0 - 20:0 at file:///home/ubuntu/ros2_ws/src/bavardage/bavardage/auditeur.py (3800ms)
+2026-09-22 14:27:58.393 [info] (6215): FG(src): IDX(src): Indexer background runner(5) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist (index)
+2026-09-22 14:27:58.394 [info] (6215): FG(src): IDX(src): Indexing(5) started
+2026-09-22 14:27:58.979 [info] (6215): BG(src): Long operation: SemanticTokens range 0:0 - 20:0 at file:///home/ubuntu/ros2_ws/src/bavardage/bavardage/auditeur.py (4593ms)
+2026-09-22 14:28:03.313 [info] (6215): FG(src): IDX(src): Long operation: scan packages file:///home/ubuntu/ros2_ws/src (6653ms)
+2026-09-22 14:28:03.314 [info] (6215): FG(src): IDX(src): scanned(5) 455 files over 1 exec env
+2026-09-22 14:28:05.050 [info] (6215): FG(src): IDX(src): indexed(5) 455 files over 1 exec env
+2026-09-22 14:28:05.327 [info] (6215): FG(src): IDX(src): Indexing finished(5).

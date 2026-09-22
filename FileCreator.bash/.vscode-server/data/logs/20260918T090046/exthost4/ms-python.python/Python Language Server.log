@@ -1,0 +1,121 @@
+2026-09-18 09:23:21.480 [info] Client: Pylance client (2026.3.1) started with python extension (2026.4.0)
+2026-09-18 09:23:22.841 [info] (6657): Server root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-18 09:23:22.847 [info] (6657): Pylance language server 2026.3.1 (pyright version 1.1.411, commit 9a9205fc) starting
+2026-09-18 09:23:22.873 [info] (6657): Starting service instance "ros2_ws" for workspace "/home/ubuntu/ros2_ws"
+2026-09-18 09:23:27.301 [info] (6657): Loading background bundle file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into file:///home/ubuntu/ros2_ws...
+2026-09-18 09:23:27.632 [info] (6657): Starting Mcp server id:60123 ...
+2026-09-18 09:23:27.819 [info] (6657): FG(ros2_ws): Setting environmentName for service "ros2_ws": "Python 3.10.12.final.0"
+2026-09-18 09:23:27.823 [info] (6657): FG(ros2_ws): Setting pythonPath for service "ros2_ws": "/usr/bin/python3"
+2026-09-18 09:23:27.826 [info] (6657): FG(ros2_ws): No include entries specified; assuming /home/ubuntu/ros2_ws
+2026-09-18 09:23:27.833 [info] (6657): FG(ros2_ws): Auto-excluding **/node_modules
+2026-09-18 09:23:27.837 [info] (6657): FG(ros2_ws): Auto-excluding **/__pycache__
+2026-09-18 09:23:27.838 [info] (6657): FG(ros2_ws): Auto-excluding **/.*
+2026-09-18 09:23:28.016 [info] (6657): FG(ros2_ws): Assuming Python version 3.10.12.final.0
+2026-09-18 09:23:29.956 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-13_13-58-36"
+2026-09-18 09:23:29.956 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest_build" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-13_13-58-36"
+2026-09-18 09:23:30.415 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 09:23:30.415 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 09:23:30.416 [info] (6657): FG(ros2_ws): Found 165 source files
+2026-09-18 09:23:30.612 [info] (6657): PQ(ros2_ws): Priority queue background worker(2) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-18 09:23:30.613 [info] (6657): PQ(ros2_ws): Priority queue background worker(2) started
+2026-09-18 09:23:30.615 [info] (6657): Settings have not changed. Skipping update.
+2026-09-18 09:23:32.577 [info] (6657): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python3
+2026-09-18 09:23:32.659 [info] (6657): [Editable Installs] No sandbox available for Python /usr/bin/python3. Dynamic pth file resolution requires Python 3.13 or later.
+2026-09-18 09:23:35.832 [info] (6657): BG(ros2_ws): Long operation: analyzing: file:///home/ubuntu/ros2_ws/build/bavardage/build/lib/bavardage/parleur.py (2743ms)
+2026-09-18 09:23:38.250 [info] (6657): FG(ros2_ws): IDX(ros2_ws): Indexer background runner(3) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist (index)
+2026-09-18 09:23:38.262 [info] (6657): FG(ros2_ws): IDX(ros2_ws): Indexing(3) started
+2026-09-18 09:23:39.331 [info] (6657): BG(ros2_ws): Long operation: SemanticTokens range 0:0 - 40:0 at file:///home/ubuntu/ros2_ws/build/bavardage/build/lib/bavardage/parleur.py (4950ms)
+2026-09-18 09:23:43.750 [info] (6657): FG(ros2_ws): IDX(ros2_ws): Long operation: scan packages file:///home/ubuntu/ros2_ws (7310ms)
+2026-09-18 09:23:43.751 [info] (6657): FG(ros2_ws): IDX(ros2_ws): scanned(3) 451 files over 1 exec env
+2026-09-18 09:23:46.889 [info] (6657): FG(ros2_ws): IDX(ros2_ws): indexed(3) 451 files over 1 exec env
+2026-09-18 09:23:47.217 [info] (6657): FG(ros2_ws): IDX(ros2_ws): Indexing finished(3).
+2026-09-18 09:31:06.404 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-13_13-58-36"
+2026-09-18 09:31:06.405 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest_build" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-13_13-58-36"
+2026-09-18 09:31:06.736 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 09:31:06.737 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 09:31:06.738 [info] (6657): FG(ros2_ws): Found 170 source files
+2026-09-18 09:31:09.621 [info] (6657): BG(ros2_ws): Long operation: checking: file:///home/ubuntu/ros2_ws/build/bavardage/build/lib/bavardage/parleur.py (2212ms)
+2026-09-18 09:31:09.622 [info] (6657): BG(ros2_ws): Long operation: analyzing: file:///home/ubuntu/ros2_ws/build/bavardage/build/lib/bavardage/parleur.py (2840ms)
+2026-09-18 09:36:06.403 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-13_13-58-36"
+2026-09-18 09:36:06.404 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest_build" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-13_13-58-36"
+2026-09-18 09:36:06.898 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 09:36:06.899 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 09:36:06.899 [info] (6657): FG(ros2_ws): Found 171 source files
+2026-09-18 09:36:09.504 [info] (6657): BG(ros2_ws): Long operation: analyzing: file:///home/ubuntu/ros2_ws/build/bavardage/build/lib/bavardage/parleur.py (2187ms)
+2026-09-18 09:45:59.939 [info] (6657): BG(ros2_ws): Long operation: checking: file:///opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py (3079ms)
+2026-09-18 09:45:59.939 [info] (6657): BG(ros2_ws): Long operation: analyzing: file:///opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py (3079ms)
+2026-09-18 10:43:02.013 [info] (6657): Starting service instance "<default>" for workspace ""
+2026-09-18 10:43:02.017 [info] (6657): Loading background bundle file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into ...
+2026-09-18 10:43:02.175 [info] (6657): FG(<default>): Setting environmentName for service "<default>": "Python 3.10.12.final.0"
+2026-09-18 10:43:02.178 [info] (6657): FG(<default>): Setting pythonPath for service "<default>": "/usr/bin/python3"
+2026-09-18 10:43:02.179 [info] (6657): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-09-18 10:43:02.192 [info] (6657): FG(<default>): Auto-excluding **/node_modules
+2026-09-18 10:43:02.193 [info] (6657): FG(<default>): Auto-excluding **/__pycache__
+2026-09-18 10:43:02.195 [info] (6657): FG(<default>): Auto-excluding **/.*
+2026-09-18 10:43:02.410 [info] (6657): FG(<default>): Assuming Python version 3.10.12.final.0
+2026-09-18 10:43:02.976 [error] (6657): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-09-18 10:43:02.977 [info] (6657): FG(<default>): No source files found.
+2026-09-18 10:43:04.986 [info] (6657): PQ(<default>): Priority queue background worker(5) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-18 10:43:04.988 [info] (6657): PQ(<default>): Priority queue background worker(5) started
+2026-09-18 10:56:24.556 [error] Request textDocument/codeAction failed.
+  Message: Request textDocument/codeAction failed with message: request cancelled
+  Code: -32603 
+2026-09-18 11:29:22.938 [info] (6657): Settings have not changed. Skipping update.
+2026-09-18 11:29:22.940 [info] (6657): Settings have not changed. Skipping update.
+2026-09-18 11:43:33.131 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_11-43-15"
+2026-09-18 11:43:33.133 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest_build" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_11-43-15"
+2026-09-18 11:43:33.567 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 11:43:33.569 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 11:43:33.569 [info] (6657): FG(ros2_ws): Found 171 source files
+2026-09-18 11:43:49.331 [info] (6657): BG(ros2_ws): Long operation: SemanticTokens full at file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (2179ms)
+2026-09-18 11:45:22.333 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_11-43-15"
+2026-09-18 11:45:22.334 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest_build" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_11-43-15"
+2026-09-18 11:45:22.639 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 11:45:22.639 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 11:45:22.639 [info] (6657): FG(ros2_ws): Found 171 source files
+2026-09-18 11:45:26.390 [info] (6657): BG(ros2_ws): Long operation: checking: file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (2905ms)
+2026-09-18 11:45:26.390 [info] (6657): BG(ros2_ws): Long operation: analyzing: file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (3723ms)
+2026-09-18 11:59:27.727 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_11-59-18"
+2026-09-18 11:59:27.729 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest_build" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_11-59-18"
+2026-09-18 11:59:28.187 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 11:59:28.190 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 11:59:28.191 [info] (6657): FG(ros2_ws): Found 171 source files
+2026-09-18 11:59:33.927 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_11-59-18"
+2026-09-18 11:59:33.930 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest_build" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_11-59-18"
+2026-09-18 11:59:34.575 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 11:59:34.578 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 11:59:34.581 [info] (6657): FG(ros2_ws): Found 171 source files
+2026-09-18 11:59:34.657 [info] (6657): BG(ros2_ws): Long operation: checking: file:///home/ubuntu/ros2_ws/build/bavardage/build/lib/bavardage/auditeur.py (3185ms)
+2026-09-18 11:59:34.658 [info] (6657): BG(ros2_ws): Long operation: analyzing: file:///home/ubuntu/ros2_ws/build/bavardage/build/lib/bavardage/auditeur.py (3223ms)
+2026-09-18 11:59:41.027 [info] (6657): BG(ros2_ws): Long operation: checking: file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (5675ms)
+2026-09-18 11:59:41.029 [info] (6657): BG(ros2_ws): Long operation: analyzing: file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (5677ms)
+2026-09-18 12:08:30.941 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_12-08-22"
+2026-09-18 12:08:30.943 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest_build" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_12-08-22"
+2026-09-18 12:08:31.340 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:08:31.340 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:08:31.341 [info] (6657): FG(ros2_ws): Found 171 source files
+2026-09-18 12:08:40.804 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_12-08-22"
+2026-09-18 12:08:40.807 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest_build" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_12-08-22"
+2026-09-18 12:08:41.669 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:08:41.671 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:08:41.672 [info] (6657): FG(ros2_ws): Found 171 source files
+2026-09-18 12:08:41.690 [info] (6657): BG(ros2_ws): Long operation: checking: file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (4293ms)
+2026-09-18 12:08:41.691 [info] (6657): BG(ros2_ws): Long operation: analyzing: file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (4361ms)
+2026-09-18 12:08:41.743 [info] (6657): BG(ros2_ws): Long operation: checking: file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (2989ms)
+2026-09-18 12:08:41.745 [info] (6657): BG(ros2_ws): Long operation: analyzing: file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (2991ms)
+2026-09-18 12:14:12.383 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_12-14-03"
+2026-09-18 12:14:12.385 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest_build" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_12-14-03"
+2026-09-18 12:14:12.876 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:14:12.879 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:14:12.881 [info] (6657): FG(ros2_ws): Found 171 source files
+2026-09-18 12:14:19.903 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_12-14-03"
+2026-09-18 12:14:19.936 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest_build" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-18_12-14-03"
+2026-09-18 12:14:21.122 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:14:21.124 [info] (6657): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:14:21.125 [info] (6657): FG(ros2_ws): Found 171 source files
+2026-09-18 12:14:21.155 [info] (6657): BG(ros2_ws): Long operation: checking: file:///home/ubuntu/ros2_ws/build/bavardage/build/lib/bavardage/auditeur.py (2831ms)
+2026-09-18 12:14:21.157 [info] (6657): BG(ros2_ws): Long operation: analyzing: file:///home/ubuntu/ros2_ws/build/bavardage/build/lib/bavardage/auditeur.py (2859ms)
+2026-09-18 12:14:21.169 [info] (6657): BG(ros2_ws): Long operation: checking: file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (2785ms)
+2026-09-18 12:14:21.169 [info] (6657): BG(ros2_ws): Long operation: analyzing: file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (2877ms)
+2026-09-18 12:14:23.430 [info] (6657): BG(ros2_ws): Long operation: checking: file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (2066ms)
+2026-09-18 12:14:23.433 [info] (6657): BG(ros2_ws): Long operation: analyzing: file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (2067ms)

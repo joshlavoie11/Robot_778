@@ -1,0 +1,32 @@
+2026-09-18 09:31:15.206 [info] Extension host with pid 8266 started
+2026-09-18 09:31:15.233 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/e73b830051c736ff1e0374e33c38a47f/vscode.lock': Lock acquired.
+2026-09-18 09:31:15.683 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-18 09:31:15.691 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-09-18 09:31:16.085 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-09-18 09:31:16.087 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-09-18 09:31:16.817 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:setup.py'
+2026-09-18 09:31:18.328 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'api', root cause: ms-python.python
+2026-09-18 09:31:19.475 [info] Eager extensions activated
+2026-09-18 09:31:19.477 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-18 09:31:19.481 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-18 09:31:23.990 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-09-18 09:31:26.526 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2026-09-18 09:31:36.061 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-09-18 09:35:21.982 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-09-18 10:30:17.888 [error] [ms-python.vscode-pylance] provider FAILED
+2026-09-18 10:30:17.896 [error] Error: Request textDocument/codeAction failed with message: request cancelled
+	at handleResponse (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/vendor.bundle.js:16:418)
+	at handleMessage (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/vendor.bundle.js:15:1120024)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/vendor.bundle.js:15:1119495)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-09-18 10:42:35.896 [error] [ms-python.vscode-pylance] provider FAILED
+2026-09-18 10:42:35.896 [error] Error: Request textDocument/codeAction failed with message: request cancelled
+	at handleResponse (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/vendor.bundle.js:16:418)
+	at handleMessage (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/vendor.bundle.js:15:1120024)
+	at Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/vendor.bundle.js:15:1119495)
+	at process.processImmediate (node:internal/timers:504:21)
+2026-09-18 11:31:15.547 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-09-18 11:35:15.770 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-18 11:35:15.772 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-18 11:35:15.773 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-18 11:35:17.349 [warning] DiagnosticCollection with name 'Pylance' does already exist.

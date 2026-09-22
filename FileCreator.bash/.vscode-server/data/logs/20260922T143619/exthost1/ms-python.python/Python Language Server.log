@@ -1,0 +1,17 @@
+2026-09-22 14:43:27.945 [info] Client: Pylance client (2026.3.1) started with python extension (2026.4.0)
+2026-09-22 14:43:30.257 [info] (2394): Server root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-22 14:43:30.272 [info] (2394): Pylance language server 2026.3.1 (pyright version 1.1.411, commit 9a9205fc) starting
+2026-09-22 14:43:30.421 [info] (2394): virtual workspace: vscode-terminal:/
+2026-09-22 14:43:30.422 [info] (2394): Starting service instance "<default>" for workspace "vscode-terminal:/"
+2026-09-22 14:43:35.618 [info] (2394): Starting Mcp server id:53903 ...
+2026-09-22 14:43:35.768 [info] (2394): FG(<default>): Setting environmentName for service "<default>": "Python 3.10.12.final.0"
+2026-09-22 14:43:35.771 [info] (2394): FG(<default>): No include entries specified; assuming vscode-terminal:/
+2026-09-22 14:43:35.774 [info] (2394): FG(<default>): Auto-excluding **/node_modules
+2026-09-22 14:43:35.776 [info] (2394): FG(<default>): Auto-excluding **/__pycache__
+2026-09-22 14:43:35.777 [info] (2394): FG(<default>): Auto-excluding **/.*
+2026-09-22 14:43:35.904 [info] (2394): FG(<default>): Assuming Python version 3.10.12.final.0
+2026-09-22 14:43:36.585 [info] (2394): [Editable Installs] Starting dynamic pth file resolution for Python: 
+2026-09-22 14:43:36.637 [info] (2394): [Editable Installs] No sandbox available for Python . Dynamic pth file resolution requires Python 3.13 or later.
+2026-09-22 14:43:36.680 [info] (2394): Settings have not changed. Skipping update.
+2026-09-22 14:43:36.697 [info] (2394): FG(<default>): Skipping file enumeration for non-file URI scheme "vscode-terminal".
+2026-09-22 14:43:36.699 [info] (2394): FG(<default>): No source files found.

@@ -1,0 +1,70 @@
+2026-09-22 14:32:16.067 [info] Python-envs extension version: 1.36.0
+2026-09-22 14:32:16.067 [info] 
+=== Python Envs Configuration Levels ===
+2026-09-22 14:32:16.067 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-09-22 14:32:16.067 [info] [pet] Starting Python Locator /home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/python-env-tools/bin/pet server
+2026-09-22 14:32:16.067 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-09-22 14:32:16.067 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-09-22 14:32:16.068 [info] Registering poetry manager (environments will be discovered lazily)
+2026-09-22 14:32:16.141 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/ubuntu/ros2_ws"],"environmentDirectories":["/home/ubuntu/ros2_ws/.venv","/home/ubuntu/ros2_ws/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/ubuntu/.vscode-server/data/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-09-22 14:32:16.325 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:32:16.402 [info] Conda not found, turning off conda features. [Error: Conda not found
+	at L (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:629081)
+	at runNextTicks (node:internal/process/task_queues:65:5)
+	at process.processImmediate (node:internal/timers:472:9)
+	at async V (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:629206)
+	at async t.registerCondaFeatures (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:648591)
+	at async t.safeRegister (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:290365)
+	at async Promise.all (index 1)
+	at async Immediate.<anonymous> (/home/ubuntu/.vscode-server/extensions/ms-python.vscode-python-envs-1.36.0-linux-arm64/dist/extension.js:2:782813)]
+2026-09-22 14:32:16.428 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-09-22 14:32:16.461 [info] [SYS_SET] scope=/home/ubuntu/ros2_ws, project=/home/ubuntu/ros2_ws, normalizedKey=/home/ubuntu/ros2_ws, env=Python 3.10.12.final.0-wmsxah67t1i
+2026-09-22 14:32:16.762 [info] Refreshing Pyenv Environments
+2026-09-22 14:32:16.762 [info] Refreshing pyenv environments
+2026-09-22 14:32:16.763 [info] Refreshing Pipenv Environments
+2026-09-22 14:32:16.763 [info] Refreshing pipenv environments
+2026-09-22 14:32:16.763 [info] Refreshing Poetry Environments
+2026-09-22 14:32:16.763 [info] Refreshing poetry environments
+2026-09-22 14:32:16.791 [info] Python API: Changed environment from undefined to Python 3.10.12.final.0 for: /home/ubuntu/ros2_ws
+2026-09-22 14:32:16.791 [info] Internal: Changed environment from undefined to Python 3.10.12.final.0 for: /home/ubuntu/ros2_ws
+2026-09-22 14:32:16.799 [info] [interpreterSelection] ros2_ws: Python 3.10.12.final.0 (source: autoDiscovery)
+2026-09-22 14:32:16.799 [info] [interpreterSelection] Workspace env resolved, deferring global scope to background
+2026-09-22 14:32:17.047 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:32:17.178 [info] Python API: Changed environment from undefined to Python 3.10.12.final.0 for: global
+2026-09-22 14:32:17.178 [info] Internal: Changed environment from undefined to Python 3.10.12.final.0 for: global
+2026-09-22 14:32:17.178 [info] [interpreterSelection] global: Python 3.10.12.final.0 (source: autoDiscovery)
+2026-09-22 14:32:17.207 [info] Refreshing pyenv environments
+2026-09-22 14:32:17.442 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:32:17.573 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:32:17.575 [info] Pipenv not found via settings, cache, or PATH
+2026-09-22 14:32:17.576 [info] Refreshing pipenv environments
+2026-09-22 14:32:17.584 [info] Pipenv not found via settings, cache, or PATH
+2026-09-22 14:32:17.585 [info] Found 0 pipenv environments
+2026-09-22 14:32:17.604 [info] Pipenv not found via settings, cache, or PATH
+2026-09-22 14:32:17.622 [info] Refreshing poetry environments
+2026-09-22 14:32:17.628 [info] Poetry executable not found
+2026-09-22 14:32:17.647 [info] Environment discovery complete: 1 environments found (Global: 1)
+2026-09-22 14:32:19.577 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:32:22.646 [info] Discovered env: /usr/bin/python3
+2026-09-22 14:32:23.004 [info] Pipenv not found via settings, cache, or PATH
+2026-09-22 14:32:23.004 [info] Found 0 pipenv environments
+2026-09-22 14:32:23.041 [info] Poetry executable not found
+2026-09-22 14:33:30.868 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:30.975 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:31.096 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:31.205 [info] Resolved Python Environment /usr/bin/python3
+2026-09-22 14:33:31.278 [info] Resolved Python Environment /usr/bin/python3

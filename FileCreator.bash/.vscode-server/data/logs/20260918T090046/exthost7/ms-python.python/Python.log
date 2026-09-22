@@ -1,0 +1,90 @@
+2026-09-18 09:31:19.141 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-09-18 09:31:19.422 [info] [test-by-project] Activating project-based testing mode
+2026-09-18 09:31:19.423 [info] [test-by-project] Discovering projects for workspace: /home/ubuntu/ros2_ws/jerro_navigation
+2026-09-18 09:31:19.424 [info] Native locator: Refresh started
+2026-09-18 09:31:19.425 [info] [test-by-project] Found 1 total Python projects from API
+2026-09-18 09:31:19.425 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-09-18 09:31:19.425 [info] [test-by-project] Creating adapter for: jerro_navigation at file:///home/ubuntu/ros2_ws/jerro_navigation
+2026-09-18 09:31:19.747 [info] Native locator: Refresh started
+2026-09-18 09:31:19.923 [info] [test-by-project] Registered 1 project(s) for /home/ubuntu/ros2_ws/jerro_navigation
+2026-09-18 09:31:19.935 [info] [test-by-project] Activated 1 project(s) for /home/ubuntu/ros2_ws/jerro_navigation
+2026-09-18 09:31:19.936 [info] [test-by-project] Subscribed to Python project changes
+2026-09-18 09:31:26.351 [info] Native locator: Refresh finished in 6930 ms
+2026-09-18 09:31:26.378 [info] > pyenv which python
+2026-09-18 09:31:26.378 [info] cwd: .
+2026-09-18 09:31:26.518 [info] Active interpreter [/home/ubuntu/ros2_ws/jerro_navigation]:  /usr/bin/python3
+2026-09-18 09:31:30.269 [info] Starting Pylance language server.
+2026-09-18 11:31:12.939 [info] > /usr/bin/python3 ~/.vscode-server/extensions/ms-python.python-2026.4.0-linux-arm64/python_files/normalizeSelection.py
+2026-09-18 11:31:13.659 [info] Send text to terminal: /usr/bin/python3
+2026-09-18 11:35:16.956 [error] Unable to find workspace for given file
+2026-09-18 11:43:14.471 [info] Send text to terminal: class MinimalPublisher(Node):
+    WHEELBASE = 0.164
+    WHEEL_RADIUS = 0.068
+    TICKS_BY_ROTATION = 632.8
+    def __init__(self):
+        #---VARIABLES---
+        self.previousTickCountLeft = 0
+        self.previousTickCountRight = 0
+        self.previousTime = 0
+        super().__init__('twist_to_motor')
+        #---LISTENERS---
+        #cmd vitesse
+        self.subscription = self.create_subscription(
+            Twist,
+            '/cmd_vel',
+            self.cmd_vel_callback,
+            10)
+        self.subscription  # prevent unused variable warning
+        #encodeur A
+        self.subscription = self.create_subscription(
+            Int32,
+            '/encoder_a',
+            self.encoder_a_callback,
+            10)
+        self.subscription  # prevent unused variable warning
+        #encodeur B
+        self.subscription = self.create_subscription(
+            Int32,
+            '/encoder_b',
+            self.encoder_b_callback,
+            10)
+        self.subscription  # prevent unused variable warning
+        #---PUBLISHERS---
+        #
+        self.publisher_ = self.create_publisher(MotorSpeed, '/motor/set_speed', 10)
+        #timer_period = 0.5  # seconds
+        #self.timer = self.create_timer(timer_period, self.timer_callback)
+        #self.i = 0
+    #---CALLBACKS---
+    def cmd_vel_callback(self, msg):
+        v_lin_x = msg.data.linear.x
+        w_ang_z = msg.data.angular.z
+        linearSpeed = [self.convertSpeedLeft(self, v_lin_x, w_ang_z), self.convertSpeedLeft(self, v_lin_x, w_ang_z)]
+        msg = self.v_LinToTicks(linearSpeed)
+        self.publisher_.publish(msg)
+    def encoder_a_callback(self, msg):
+        currentTickCount = msg.data
+        currentTime = time.clock()
+        tickSpeed = (currentTickCount-self.previousTickCountLeft)/(currentTime-self.previousTime)
+        msSpeed = self.v_TicksToMs(tickSpeed)
+        self.previousTickCountLeft = currentTickCount
+        self.previousTime = current
+    def encoder_b_callback(self, msg):
+        pulse = msg        
+        #v_lin_x = data.linear.x
+        #w_ang_z = data.angular.z
+        #msg = [self.v_left(self, v_lin_x, w_ang_z), self.v_right(self, v_lin_x, w_ang_z)]
+        #self.publisher_.publish(msg)
+    #---UTILITIES---
+    def convertSpeedLeft(self, v_lineaire, w_angulaire):
+        return (v_lineaire - (w_angulaire*self.WHEELBASE)/2)
+    def convertSpeedRight(self, v_lineaire, w_angulaire):
+        return (v_lineaire + (w_angulaire*self.WHEELBASE)/2)
+    def msToTicks(self, v_lineaire, w_angulaire):
+        return (v_lineaire + (w_angulaire*1)/2)
+    def v_LinToTicks(self, v_lineaire):
+        return (v_lineaire * self.TICKS_BY_ROTATION)/(2 * math.pi * self.WHEEL_RADIUS)
+    def v_TicksToMs(self, v_lineaire):
+        return (v_lineaire*2 * math.pi * self.WHEEL_RADIUS)/self.TICKS_BY_ROTATION
+
+

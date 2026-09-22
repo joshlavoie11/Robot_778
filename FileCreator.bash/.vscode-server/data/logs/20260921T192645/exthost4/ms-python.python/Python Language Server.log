@@ -1,0 +1,55 @@
+2026-09-22 14:32:21.768 [info] Client: Pylance client (2026.3.1) started with python extension (2026.4.0)
+2026-09-22 14:32:23.895 [info] (7593): Server root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-22 14:32:23.897 [info] (7593): Pylance language server 2026.3.1 (pyright version 1.1.411, commit 9a9205fc) starting
+2026-09-22 14:32:23.898 [info] (7593): Starting service instance "ros2_ws" for workspace "/home/ubuntu/ros2_ws"
+2026-09-22 14:32:28.995 [info] (7593): Loading background bundle file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into file:///home/ubuntu/ros2_ws...
+2026-09-22 14:32:29.510 [info] (7593): Starting Mcp server id:34748 ...
+2026-09-22 14:32:29.782 [info] (7593): FG(ros2_ws): Setting environmentName for service "ros2_ws": "Python 3.10.12.final.0"
+2026-09-22 14:32:29.789 [info] (7593): FG(ros2_ws): Setting pythonPath for service "ros2_ws": "/usr/bin/python3"
+2026-09-22 14:32:29.794 [info] (7593): FG(ros2_ws): No include entries specified; assuming /home/ubuntu/ros2_ws
+2026-09-22 14:32:29.802 [info] (7593): FG(ros2_ws): Auto-excluding **/node_modules
+2026-09-22 14:32:29.807 [info] (7593): FG(ros2_ws): Auto-excluding **/__pycache__
+2026-09-22 14:32:29.809 [info] (7593): FG(ros2_ws): Auto-excluding **/.*
+2026-09-22 14:32:30.064 [info] (7593): FG(ros2_ws): Assuming Python version 3.10.12.final.0
+2026-09-22 14:32:31.804 [info] (7593): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/jerro_navigation/log/latest" -> "file:///home/ubuntu/ros2_ws/jerro_navigation/log/build_2026-09-21_18-33-43"
+2026-09-22 14:32:31.806 [info] (7593): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/jerro_navigation/log/latest_build" -> "file:///home/ubuntu/ros2_ws/jerro_navigation/log/build_2026-09-21_18-33-43"
+2026-09-22 14:32:31.842 [info] (7593): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-22_14-18-59"
+2026-09-22 14:32:31.843 [info] (7593): FG(ros2_ws): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/log/latest_build" -> "file:///home/ubuntu/ros2_ws/log/build_2026-09-22_14-18-59"
+2026-09-22 14:32:31.886 [info] (7593): FG(ros2_ws): Found 77 source files
+2026-09-22 14:32:32.015 [info] (7593): PQ(ros2_ws): Priority queue background worker(2) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-22 14:32:32.016 [info] (7593): PQ(ros2_ws): Priority queue background worker(2) started
+2026-09-22 14:32:32.017 [info] (7593): Settings have not changed. Skipping update.
+2026-09-22 14:32:32.022 [info] (7593): Starting service instance "<default>" for workspace ""
+2026-09-22 14:32:32.024 [info] (7593): Loading background bundle file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into ...
+2026-09-22 14:32:32.378 [info] (7593): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python3
+2026-09-22 14:32:32.386 [info] (7593): [Editable Installs] No sandbox available for Python /usr/bin/python3. Dynamic pth file resolution requires Python 3.13 or later.
+2026-09-22 14:32:32.792 [info] (7593): FG(<default>): Setting environmentName for service "<default>": "Python 3.10.12.final.0"
+2026-09-22 14:32:32.793 [info] (7593): FG(<default>): Setting pythonPath for service "<default>": "/usr/bin/python3"
+2026-09-22 14:32:32.793 [info] (7593): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-09-22 14:32:32.805 [info] (7593): FG(<default>): Auto-excluding **/node_modules
+2026-09-22 14:32:32.806 [info] (7593): FG(<default>): Auto-excluding **/__pycache__
+2026-09-22 14:32:32.806 [info] (7593): FG(<default>): Auto-excluding **/.*
+2026-09-22 14:32:33.298 [info] (7593): FG(<default>): Assuming Python version 3.10.12.final.0
+2026-09-22 14:32:34.328 [error] (7593): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-09-22 14:32:34.331 [info] (7593): FG(<default>): No source files found.
+2026-09-22 14:32:37.313 [info] (7593): PQ(<default>): Priority queue background worker(4) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-22 14:32:37.313 [info] (7593): PQ(<default>): Priority queue background worker(4) started
+2026-09-22 14:33:31.641 [info] (7593): FG(ros2_ws): IDX(ros2_ws): Indexer background runner(5) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist (index)
+2026-09-22 14:33:31.643 [info] (7593): FG(ros2_ws): IDX(ros2_ws): Indexing(5) started
+2026-09-22 14:33:35.725 [info] (7593): BG(ros2_ws): Long operation: SemanticTokens range 0:0 - 60:29 at file:///home/ubuntu/ros2_ws/jerro_navigation/jerro_navigation/twist_to_motors.py (4486ms)
+2026-09-22 14:33:39.710 [info] (7593): FG(ros2_ws): IDX(ros2_ws): Long operation: scan packages file:///home/ubuntu/ros2_ws (7359ms)
+2026-09-22 14:33:39.712 [info] (7593): FG(ros2_ws): IDX(ros2_ws): scanned(5) 451 files over 1 exec env
+2026-09-22 14:33:41.490 [info] (7593): FG(ros2_ws): IDX(ros2_ws): indexed(5) 451 files over 1 exec env
+2026-09-22 14:33:41.876 [info] (7593): FG(ros2_ws): IDX(ros2_ws): Indexing finished(5).
+2026-09-22 14:34:18.485 [info] (7593): virtual workspace: vscode-terminal:/
+2026-09-22 14:34:18.487 [info] (7593): Starting service instance "<default>" for workspace "vscode-terminal:/"
+2026-09-22 14:34:18.659 [info] (7593): FG(<default>): Setting environmentName for service "<default>": "Python 3.10.12.final.0"
+2026-09-22 14:34:18.660 [info] (7593): FG(<default>): No include entries specified; assuming vscode-terminal:/
+2026-09-22 14:34:18.661 [info] (7593): FG(<default>): Auto-excluding **/node_modules
+2026-09-22 14:34:18.661 [info] (7593): FG(<default>): Auto-excluding **/__pycache__
+2026-09-22 14:34:18.662 [info] (7593): FG(<default>): Auto-excluding **/.*
+2026-09-22 14:34:18.874 [info] (7593): FG(<default>): Assuming Python version 3.10.12.final.0
+2026-09-22 14:34:19.449 [info] (7593): [Editable Installs] Starting dynamic pth file resolution for Python: 
+2026-09-22 14:34:19.563 [info] (7593): [Editable Installs] No sandbox available for Python . Dynamic pth file resolution requires Python 3.13 or later.
+2026-09-22 14:34:19.619 [info] (7593): FG(<default>): Skipping file enumeration for non-file URI scheme "vscode-terminal".
+2026-09-22 14:34:19.622 [info] (7593): FG(<default>): No source files found.

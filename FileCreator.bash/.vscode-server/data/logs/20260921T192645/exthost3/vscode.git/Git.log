@@ -1,0 +1,73 @@
+2026-09-22 14:27:30.259 [info] [main] Log level: Info
+2026-09-22 14:27:30.259 [info] [main] Validating found git in: "git"
+2026-09-22 14:27:30.259 [info] [main] Using git "2.34.1" from "git"
+2026-09-22 14:27:30.259 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-22 14:27:30.259 [info] > git rev-parse --show-toplevel [360ms]
+2026-09-22 14:27:30.259 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-09-22 14:27:30.297 [info] > git rev-parse --show-toplevel [47ms]
+2026-09-22 14:27:30.297 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-09-22 14:27:30.715 [info] > git rev-parse --show-toplevel [384ms]
+2026-09-22 14:27:30.715 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-09-22 14:27:31.340 [info] > git rev-parse --show-toplevel [599ms]
+2026-09-22 14:27:32.876 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [250ms]
+2026-09-22 14:27:33.467 [info] [Model][openRepository] Opened repository (path): /home/ubuntu/ros2_ws/src/jerro
+2026-09-22 14:27:33.467 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu/ros2_ws/src/jerro
+2026-09-22 14:27:33.467 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-22 14:27:33.504 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-09-22 14:27:33.774 [info] > git config --get --local core.virtualfilesystem [278ms]
+2026-09-22 14:27:33.775 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-22 14:27:33.908 [info] > git config --get commit.template [186ms]
+2026-09-22 14:27:33.953 [info] > git rev-parse --show-toplevel [211ms]
+2026-09-22 14:27:33.953 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-09-22 14:27:34.006 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2026-09-22 14:27:34.036 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/ros2_ws/src/jerro/.git/refs/remotes/origin/main'
+2026-09-22 14:27:34.370 [info] > git rev-parse refs/remotes/origin/main [334ms]
+2026-09-22 14:27:34.490 [info] > git status -z -uall [74ms]
+2026-09-22 14:27:34.491 [info] > git check-ignore -v -z --stdin [12ms]
+2026-09-22 14:27:34.499 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [49ms]
+2026-09-22 14:27:35.146 [info] > git config --get commit.template [534ms]
+2026-09-22 14:27:35.147 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [569ms]
+2026-09-22 14:27:35.814 [info] > git check-ignore -v -z --stdin [576ms]
+2026-09-22 14:27:37.261 [info] > git config --get --local branch.main.vscode-merge-base [2067ms]
+2026-09-22 14:27:37.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [663ms]
+2026-09-22 14:27:38.018 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [793ms]
+2026-09-22 14:27:38.057 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/ros2_ws/src/jerro/.git/refs/remotes/origin/main'
+2026-09-22 14:27:38.151 [info] > git check-ignore -v -z --stdin [292ms]
+2026-09-22 14:27:38.971 [info] > git rev-parse refs/remotes/origin/main [913ms]
+2026-09-22 14:27:39.035 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1020ms]
+2026-09-22 14:27:39.130 [info] > git status -z -uall [130ms]
+2026-09-22 14:27:39.173 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 69f13f102dd54e6d5f826f124bc5d20eb682f60c...refs/remotes/origin/main -- [103ms]
+2026-09-22 14:27:39.223 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [189ms]
+2026-09-22 14:27:41.127 [info] > git check-ignore -v -z --stdin [12ms]
+2026-09-22 14:27:48.569 [info] > git check-ignore -v -z --stdin [22ms]
+2026-09-22 14:27:50.141 [info] > git check-ignore -v -z --stdin [19ms]
+2026-09-22 14:27:50.275 [info] > git show --textconv :jerro_drivers/launch/motor_control.launch.py [62ms]
+2026-09-22 14:27:50.300 [info] > git ls-files --stage -- jerro_drivers/launch/motor_control.launch.py [31ms]
+2026-09-22 14:27:50.403 [info] > git cat-file -s 9c1056a93c33303a60337306733d15bbe2b1e96e [48ms]
+2026-09-22 14:28:02.752 [info] > git check-ignore -v -z --stdin [5ms]
+2026-09-22 14:28:21.236 [info] > git check-ignore -v -z --stdin [5ms]
+2026-09-22 14:28:25.505 [info] > git check-ignore -v -z --stdin [9ms]
+2026-09-22 14:28:25.592 [info] > git show --textconv :jerro_description/setup.py [30ms]
+2026-09-22 14:28:25.603 [info] > git ls-files --stage -- jerro_description/setup.py [13ms]
+2026-09-22 14:28:25.635 [info] > git cat-file -s e1e617f4020d2c509dbebc3103bfd3abde2b68ab [7ms]
+2026-09-22 14:28:36.255 [info] > git rev-parse --show-toplevel [12ms]
+2026-09-22 14:28:36.255 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-09-22 14:28:50.426 [info] > git check-ignore -v -z --stdin [5ms]
+2026-09-22 14:28:52.228 [info] > git check-ignore -v -z --stdin [5ms]
+2026-09-22 14:28:55.659 [info] > git check-ignore -v -z --stdin [5ms]
+2026-09-22 14:28:55.742 [info] > git show --textconv :jerro_drivers/src/servomoteur.cpp [29ms]
+2026-09-22 14:28:55.745 [info] > git ls-files --stage -- jerro_drivers/src/servomoteur.cpp [6ms]
+2026-09-22 14:28:55.776 [info] > git cat-file -s ff13586219adfe12360f93737d5a0becd418c184 [6ms]
+2026-09-22 14:28:56.929 [info] > git check-ignore -v -z --stdin [5ms]
+2026-09-22 14:28:57.010 [info] > git show --textconv :jerro_drivers/src/motor_pid_controller.cpp [27ms]
+2026-09-22 14:28:57.014 [info] > git ls-files --stage -- jerro_drivers/src/motor_pid_controller.cpp [6ms]
+2026-09-22 14:28:57.046 [info] > git cat-file -s 5400c7f0238ee73bafd3b0532bb293cc1c5b049a [6ms]
+2026-09-22 14:28:57.600 [info] > git check-ignore -v -z --stdin [5ms]
+2026-09-22 14:28:57.681 [info] > git show --textconv :jerro_drivers/src/encoder_publisher.cpp [30ms]
+2026-09-22 14:28:57.684 [info] > git ls-files --stage -- jerro_drivers/src/encoder_publisher.cpp [6ms]
+2026-09-22 14:28:57.714 [info] > git cat-file -s f720690041e050d265a1448397246a425562b2cb [6ms]
+2026-09-22 14:28:58.242 [info] > git check-ignore -v -z --stdin [5ms]
+2026-09-22 14:28:58.320 [info] > git show --textconv :jerro_drivers/src/centrale_inertielle.cpp [29ms]
+2026-09-22 14:28:58.324 [info] > git ls-files --stage -- jerro_drivers/src/centrale_inertielle.cpp [7ms]
+2026-09-22 14:28:58.354 [info] > git cat-file -s 72aa35f55bad50b585bb51ae2ff3f121b0417b35 [6ms]
+2026-09-22 14:29:12.085 [info] > git check-ignore -v -z --stdin [8ms]

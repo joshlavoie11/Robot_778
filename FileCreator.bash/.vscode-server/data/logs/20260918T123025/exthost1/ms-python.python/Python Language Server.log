@@ -1,0 +1,72 @@
+2026-09-18 12:43:42.037 [info] Client: Updating workspace folders: added=[file:///home/ubuntu/ros2_ws/src], removed=[]
+2026-09-18 12:43:42.138 [info] Client: Pylance client (2026.3.1) started with python extension (2026.4.0)
+2026-09-18 12:43:43.968 [info] (1824): Server root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-18 12:43:44.366 [info] (1824): Pylance language server 2026.3.1 (pyright version 1.1.411, commit 9a9205fc) starting
+2026-09-18 12:43:44.694 [info] (1824): Starting service instance "src" for workspace "/home/ubuntu/ros2_ws/src"
+2026-09-18 12:43:50.248 [info] (1824): Loading background bundle file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into file:///home/ubuntu/ros2_ws/src...
+2026-09-18 12:43:52.061 [info] (1824): Starting service instance "src" for workspace "/home/ubuntu/ros2_ws/src"
+2026-09-18 12:43:52.070 [info] (1824): Loading background bundle file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist/copilot-background.bundle.js into file:///home/ubuntu/ros2_ws/src...
+2026-09-18 12:43:52.090 [info] (1824): Starting Mcp server id:45463 ...
+2026-09-18 12:43:52.168 [info] (1824): PQ(src): Priority queue background worker(4) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist
+2026-09-18 12:43:52.169 [info] (1824): PQ(src): Priority queue background worker(4) started
+2026-09-18 12:43:52.359 [info] (1824): FG(src): Setting environmentName for service "src": "Python 3.10.12.final.0"
+2026-09-18 12:43:52.360 [info] (1824): FG(src): Setting pythonPath for service "src": "/usr/bin/python3"
+2026-09-18 12:43:52.362 [info] (1824): FG(src): No include entries specified; assuming /home/ubuntu/ros2_ws/src
+2026-09-18 12:43:52.365 [info] (1824): FG(src): Auto-excluding **/node_modules
+2026-09-18 12:43:52.366 [info] (1824): FG(src): Auto-excluding **/__pycache__
+2026-09-18 12:43:52.366 [info] (1824): FG(src): Auto-excluding **/.*
+2026-09-18 12:43:52.479 [info] (1824): FG(src): Assuming Python version 3.10.12.final.0
+2026-09-18 12:43:53.069 [info] (1824): Settings have not changed. Skipping update.
+2026-09-18 12:43:53.076 [info] (1824): Settings have not changed. Skipping update.
+2026-09-18 12:43:53.095 [info] (1824): Settings have not changed. Skipping update.
+2026-09-18 12:43:53.133 [info] (1824): FG(src): Setting environmentName for service "src": "Python 3.10.12.final.0"
+2026-09-18 12:43:53.134 [info] (1824): FG(src): Setting pythonPath for service "src": "/usr/bin/python3"
+2026-09-18 12:43:53.134 [info] (1824): FG(src): No include entries specified; assuming /home/ubuntu/ros2_ws/src
+2026-09-18 12:43:53.135 [info] (1824): FG(src): Auto-excluding **/node_modules
+2026-09-18 12:43:53.135 [info] (1824): FG(src): Auto-excluding **/__pycache__
+2026-09-18 12:43:53.136 [info] (1824): FG(src): Auto-excluding **/.*
+2026-09-18 12:43:53.247 [info] (1824): FG(src): Assuming Python version 3.10.12.final.0
+2026-09-18 12:43:53.994 [info] (1824): FG(src): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:43:53.994 [info] (1824): FG(src): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:43:53.995 [info] (1824): FG(src): Found 38 source files
+2026-09-18 12:43:54.058 [info] (1824): Settings have not changed. Skipping update.
+2026-09-18 12:43:55.456 [info] (1824): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python3
+2026-09-18 12:43:55.530 [info] (1824): [Editable Installs] No sandbox available for Python /usr/bin/python3. Dynamic pth file resolution requires Python 3.13 or later.
+2026-09-18 12:44:02.102 [info] (1824): FG(src): IDX(src): Indexer background runner(5) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist (index)
+2026-09-18 12:44:02.392 [info] (1824): FG(src): IDX(src): Indexing(5) started
+2026-09-18 12:44:02.862 [info] (1824): BG(src): Long operation: SemanticTokens range 0:0 - 20:0 at file:///home/ubuntu/ros2_ws/src/bavardage/bavardage/auditeur.py (6643ms)
+2026-09-18 12:44:07.121 [info] (1824): FG(src): IDX(src): Long operation: scan packages file:///home/ubuntu/ros2_ws/src (6762ms)
+2026-09-18 12:44:07.122 [info] (1824): FG(src): IDX(src): scanned(5) 459 files over 1 exec env
+2026-09-18 12:44:08.901 [info] (1824): FG(src): IDX(src): indexed(5) 459 files over 1 exec env
+2026-09-18 12:44:09.249 [info] (1824): FG(src): IDX(src): Indexing finished(5).
+2026-09-18 12:44:21.713 [info] (1824): virtual workspace: vscode-terminal:/
+2026-09-18 12:44:21.810 [info] (1824): Starting service instance "<default>" for workspace "vscode-terminal:/"
+2026-09-18 12:44:22.346 [info] (1824): FG(<default>): Setting environmentName for service "<default>": "Python 3.10.12.final.0"
+2026-09-18 12:44:22.346 [info] (1824): FG(<default>): No include entries specified; assuming vscode-terminal:/
+2026-09-18 12:44:22.347 [info] (1824): FG(<default>): Auto-excluding **/node_modules
+2026-09-18 12:44:22.348 [info] (1824): FG(<default>): Auto-excluding **/__pycache__
+2026-09-18 12:44:22.349 [info] (1824): FG(<default>): Auto-excluding **/.*
+2026-09-18 12:44:22.489 [info] (1824): FG(<default>): Assuming Python version 3.10.12.final.0
+2026-09-18 12:44:22.856 [info] (1824): [Editable Installs] Starting dynamic pth file resolution for Python: 
+2026-09-18 12:44:22.917 [info] (1824): [Editable Installs] No sandbox available for Python . Dynamic pth file resolution requires Python 3.13 or later.
+2026-09-18 12:44:22.964 [info] (1824): FG(<default>): Skipping file enumeration for non-file URI scheme "vscode-terminal".
+2026-09-18 12:44:22.966 [info] (1824): FG(<default>): No source files found.
+2026-09-18 12:47:23.586 [info] (1824): FG(src): IDX(src): Indexer background runner(6) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist (refresh)
+2026-09-18 12:47:23.588 [info] (1824): FG(src): IDX(src): Indexing(6) started
+2026-09-18 12:47:25.725 [info] (1824): BG(src): Long operation: checking: file:///home/ubuntu/ros2_ws/src/bavardage/bavardage/auditeur.py (2808ms)
+2026-09-18 12:47:25.726 [info] (1824): BG(src): Long operation: analyzing: file:///home/ubuntu/ros2_ws/src/bavardage/bavardage/auditeur.py (3470ms)
+2026-09-18 12:47:26.637 [info] (1824): FG(src): IDX(src): Long operation: scan packages file:///home/ubuntu/ros2_ws/src (2054ms)
+2026-09-18 12:47:26.637 [info] (1824): FG(src): IDX(src): scanned(6) 459 files over 1 exec env
+2026-09-18 12:47:28.226 [info] (1824): FG(src): IDX(src): indexed(6) 459 files over 1 exec env
+2026-09-18 12:47:28.456 [info] (1824): FG(src): IDX(src): Indexing finished(6).
+2026-09-18 12:48:37.966 [info] (1824): FG(src): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:48:37.967 [info] (1824): FG(src): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:48:37.967 [info] (1824): FG(src): Found 26 source files
+2026-09-18 12:48:44.223 [info] (1824): FG(src): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:48:44.225 [info] (1824): FG(src): Skipping recursive symlink "file:///home/ubuntu/ros2_ws/src/log/latest_build" -> "file:///home/ubuntu/ros2_ws/src/log/build_2026-09-18_09-10-55"
+2026-09-18 12:48:44.225 [info] (1824): FG(src): Found 14 source files
+2026-09-18 12:49:13.576 [info] (1824): FG(src): IDX(src): Indexer background runner(7) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2026.3.1/dist (refresh)
+2026-09-18 12:49:13.584 [info] (1824): FG(src): IDX(src): Indexing(7) started
+2026-09-18 12:49:15.970 [info] (1824): FG(src): IDX(src): scanned(7) 459 files over 1 exec env
+2026-09-18 12:49:17.510 [info] (1824): FG(src): IDX(src): indexed(7) 459 files over 1 exec env
+2026-09-18 12:49:17.735 [info] (1824): FG(src): IDX(src): Indexing finished(7).

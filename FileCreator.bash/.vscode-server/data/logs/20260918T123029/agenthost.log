@@ -1,0 +1,26 @@
+2026-09-18 12:43:32.670 [info] Agent Host process started successfully
+2026-09-18 12:43:32.785 [info] AgentService initialized
+2026-09-18 12:43:32.837 [info] Registering agent provider: copilotcli
+2026-09-18 12:43:32.866 [info] Registering agent provider: claude
+2026-09-18 12:43:32.989 [info] [WebSocketProtocol] Server listening on socket /tmp/code-020c0e57-f2ac-4c40-9a13-e9a13ce7555f
+2026-09-18 12:43:32.990 [info] [AgentHost] WebSocket server listening on /tmp/code-020c0e57-f2ac-4c40-9a13-e9a13ce7555f
+2026-09-18 12:43:33.054 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-09-18 12:43:33.063 [info] [Copilot] Auto routing profiles toggled; refreshing models
+2026-09-18 12:43:33.151 [info] [ProtocolServer] Initialize: clientId=a690501c-ff23-477a-b719-243ce960f218, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-09-18 12:43:33.336 [info] [Copilot] Auto routing profiles toggled; refreshing models
+2026-09-18 12:43:33.351 [info] [Copilot] Auto routing profiles toggled; refreshing models
+2026-09-18 12:43:33.359 [info] [Copilot] Auto routing profiles toggled; refreshing models
+2026-09-18 12:43:33.369 [info] [Copilot] Auto routing profiles toggled; refreshing models
+2026-09-18 12:43:33.445 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-18 12:43:33.459 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-09-18 12:43:33.485 [info] [Copilot] Listing discoverable chats...
+2026-09-18 12:43:33.491 [info] [Copilot] Starting CopilotClient...
+2026-09-18 12:43:33.495 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-09-18 12:43:33.567 [info] [Copilot] Resolved CLI path: /home/ubuntu/.vscode-server/cli/servers/Stable-7debcd0e2acdea1c52de81bf9ee1620444407dda/server/node_modules/@github/copilot-linux-arm64/index.js
+2026-09-18 12:43:33.646 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-09-18 12:43:33.675 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-09-18 12:43:33.690 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-09-18 12:43:39.375 [info] [Copilot] CopilotClient started successfully
+2026-09-18 12:43:39.435 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-09-18 12:43:39.438 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 without repository metadata, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-09-18 12:50:09.492 [info] [ProtocolServer] Client disconnected: a690501c-ff23-477a-b719-243ce960f218, subscriptions=1

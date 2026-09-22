@@ -1,0 +1,8 @@
+2026-09-22 14:02:16.083 [info] 
+
+
+
+
+2026-09-22 14:02:16.176 [info] [AgentHostChannel] Registered IPC channel 'agentHostProxy' (upstream: /tmp/code-bbaea4a1-2a5c-430e-a622-e4e81c0e368b)
+2026-09-22 14:02:16.247 [info] Extension host agent started.
+2026-09-22 14:02:24.711 [info] ServerAgentHostManager: agent host started
