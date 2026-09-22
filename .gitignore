@@ -4,13 +4,9 @@ log/
 *.pyc
 __pycache__/
 .vscode/settings.json
-
+.vscode-server/
 **/.git
 **/build/
 **/install/
 **/log/
-
-**/.git
-**/build/
-**/install/
-**/log/
+**/.vscode-server/

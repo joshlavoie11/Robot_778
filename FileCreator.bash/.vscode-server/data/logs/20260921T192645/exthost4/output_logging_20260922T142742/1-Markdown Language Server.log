@@ -1,4 +1,0 @@
-(node:7818) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/extensions/markdown-language-features/dist/serverWorkerMain.js is not specified and it doesn't parse as CommonJS.
-Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
-To eliminate this warning, add "type": "module" to /home/ubuntu/.vscode-server/cli/servers/Stable-645f29cc3176500b4b5762ba887cf2a7f0ffdf2c/server/extensions/markdown-language-features/package.json.
-(Use `node --trace-warnings ...` to show where the warning was created)
